@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="vdml4rs.sdk" version="0.0.0">
+      <category name="main"/>
+   </feature>
+   <feature id="vdml4rs.sdk.source" version="0.0.0">
+      <category name="main.source"/>
+   </feature>
+   <category-def name="main" label="Vdml4RS 1.0.x">
+      <description>
+         Vdml4RS
+      </description>
+   </category-def>
+   <category-def name="main.source" label="Vdml4RS 1.0.x (Sources)">
+      <description>
+         Vdml4RS
+      </description>
+   </category-def>
+</site>

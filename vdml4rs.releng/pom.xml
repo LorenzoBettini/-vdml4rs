@@ -13,8 +13,8 @@
 		<module>../emf.vdml.edit</module>
 		<module>../emf.vdml.editor</module>
 		<module>../emf.vdml.design</module>
-<!-- 		<module>../vdml4rs.sdk</module> -->
-<!-- 		<module>../vdml4rs.site</module> -->
+		<module>../vdml4rs.sdk</module>
+		<module>../vdml4rs.site</module>
 	</modules>
 
 	<properties>
