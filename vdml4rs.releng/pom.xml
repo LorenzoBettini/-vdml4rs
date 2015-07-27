@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>vdml4rs</groupId>
+	<artifactId>vdml4rs.releng</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>../vdml4rs.targetplatform</module>
+		<module>../emf.vdml</module>
+		<module>../emf.vdml.edit</module>
+		<module>../emf.vdml.editor</module>
+		<module>../emf.vdml.design</module>
+<!-- 		<module>../vdml4rs.sdk</module> -->
+<!-- 		<module>../vdml4rs.site</module> -->
+	</modules>
+
+	<properties>
+		<tycho-version>0.23.0</tycho-version>
+		<tycho-extras-version>0.23.0</tycho-extras-version>
+		<maven-surefire-plugin.version>2.17</maven-surefire-plugin.version>
+		<maven-antrun-plugin.version>1.7</maven-antrun-plugin.version>
+		<junit-version>4.11</junit-version>
+		<jacoco-version>0.7.4.201502262128</jacoco-version>
+		<findbugs-version>2.5.5</findbugs-version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<memoryArgs>-Xms256M -Xmx1024M -XX:PermSize=256M -XX:MaxPermSize=256M -XX:+HeapDumpOnOutOfMemoryError</memoryArgs>
+		<xtext.version>2.8.3</xtext.version>
+		<xtext-version>${xtext.version}</xtext-version>
+		<platform-version>[3.9,4.0)</platform-version>
+
+		<target-file-name>mars</target-file-name>
+
+
+		<!-- properties for deploying the composite update site and zipped products on Sourceforge -->
+		
+		<!-- since this is used in the pluginManagement section, we need to make sure
+			the path always points to this pom's directory; project.basedir will always point
+			to the directory of the pom where the pluginManagement's plugins are used -->
+		<ant-files-path>${project.basedir}/../vdml4rs.releng/ant</ant-files-path>
+
+		<!-- the subdirectory for the composite update site -->
+		<updates.dir>vdml4rs</updates.dir>
+		<site.label>Vdml4RS Site</site.label>
+
+		<remote.dir>lbettini,vdml4rs@frs.sourceforge.net:/home/frs/project/vdml4rs</remote.dir>
+	
+		<!-- local source directory of p2 site for rsync -->
+		<rsync.remote.dir>${remote.dir}/updates/releases/</rsync.remote.dir>
+		<!-- remote directory of p2 site for rsync -->
+		<rsync.local.dir>${user.home}/p2.repositories/${updates.dir}/</rsync.local.dir>
+
+		<!-- pass "-n" to perform a trial run with no changes made -->
+		<dryrun></dryrun>
+		
+		<!-- set it to true to have a self contained p2 repository https://wiki.eclipse.org/Tycho/eclipse-repository#Creating_a_self-contained_p2_repository -->
+		<includeAllDependencies>true</includeAllDependencies>
+	</properties>
+
+	<profiles>
+		<profile>
+			<id>local</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+
+			<properties>
+				<target-file-name>local</target-file-name>
+			</properties>
+		</profile>
+	</profiles>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<!-- xtend-maven-plugin is in pluginManagement instead of in plugins 
+					so that it doesn't run before the exec-maven-plugin's *.mwe2 gen; this way 
+					we can list it after. -->
+
+				<plugin>
+					<groupId>org.eclipse.xtend</groupId>
+					<artifactId>xtend-maven-plugin</artifactId>
+					<version>${xtext.version}</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>compile</goal>
+								<goal>xtend-install-debug-info</goal>
+								<goal>testCompile</goal>
+								<goal>xtend-test-install-debug-info</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<outputDirectory>xtend-gen</outputDirectory>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>2.5</version>
+					<configuration>
+						<filesets>
+							<fileset>
+								<directory>${basedir}/xtend-gen</directory>
+							</fileset>
+						</filesets>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-source-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<executions>
+					<execution>
+						<id>plugin-source</id>
+						<goals>
+							<goal>plugin-source</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho.extras</groupId>
+				<artifactId>tycho-source-feature-plugin</artifactId>
+				<version>${tycho-extras-version}</version>
+				<executions>
+					<execution>
+						<id>source-feature</id>
+						<phase>package</phase>
+						<goals>
+							<goal>source-feature</goal>
+						</goals>
+						<configuration>
+							<excludes>
+								<!-- These are bundles and feature that do not have a corresponding 
+									source version; NOT the ones that we do not want source versions -->
+								<feature id="org.eclipse.swtbot.ide" />
+								<feature id="org.eclipse.xtext.sdk" />
+								<feature id="org.eclipse.xtend.sdk" />
+								<feature id="org.eclipse.pde" />
+								<feature id="org.eclipse.emf.mwe2.language.sdk" />
+								<feature id="org.eclipse.emf.mwe2.runtime.sdk" />
+							</excludes>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-p2-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<executions>
+					<execution>
+						<id>attach-p2-metadata</id>
+						<phase>package</phase>
+						<goals>
+							<goal>p2-metadata</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<!-- in standard build, use only the current environment -->
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<target>
+						<artifact>
+							<groupId>vdml4rs</groupId>
+							<artifactId>vdml4rs.targetplatform</artifactId>
+							<version>${project.version}</version>
+							<classifier>${target-file-name}</classifier>
+						</artifact>
+					</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-packaging-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<format>'v'yyyyMMdd'-'HHmm</format>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
