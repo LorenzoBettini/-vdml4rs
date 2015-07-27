@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/emf.vdml/src" modelPluginID="emf.vdml" modelName="Vdml"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="7.0" copyrightFields="false" usedGenPackages="../../org.eclipse.uml2.types/model/Types.genmodel#//types"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>vdml.ecore</foreignModel>
+  <genPackages prefix="Vdml" disposableProviderFactory="true" ecorePackage="vdml.ecore#/">
+    <genClasses ecoreClass="vdml.ecore#//ValueDeliveryModel">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDeliveryModel/metricsModel"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDeliveryModel/valueLibrary"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDeliveryModel/capabilitylibrary"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDeliveryModel/businessItemLibrary"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDeliveryModel/actor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDeliveryModel/practiceLibrary"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDeliveryModel/scenario"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDeliveryModel/collaboration"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="vdml.ecore#//VdmlElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//VdmlElement/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//VdmlElement/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//VdmlElement/attribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//VdmlElement/represents"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//VdmlElement/annotation"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//String"/>
+    <genClasses ecoreClass="vdml.ecore#//Attribute">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Attribute/tag"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Attribute/value"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Annotation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Annotation/text"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//ValueLibrary">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueLibrary/valueDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueLibrary/valueCategory"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//ValueDefinition">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDefinition/category"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueDefinition/characteristicDefinition"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//ValueCategory">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueCategory/parentCategory"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueCategory/childCategory"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueCategory/categoryValue"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//CapabilityLibrary">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityLibrary/capability"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityLibrary/capabilityDependency"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="vdml.ecore#//Capability">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Capability/parentCabability"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Capability/childCapability"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Capability/characteristicDefinition"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//CapabilityDependency">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//CapabilityDependency/isTangible"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityDependency/deliverableDefinition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityDependency/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityDependency/target"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//CapabilityDependency/isFromExternalSource"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//CapabilityDependency/isForExternalTarget"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//BusinessItemDefinition">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemDefinition/practiceDefinition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemDefinition/supportedCapability"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//BusinessItemDefinition/isFungible"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemDefinition/category"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemDefinition/characteristicDefinition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//BusinessItemDefinition/isShareable"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemDefinition/capabilityDependency"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//PracticeDefinition">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//PracticeDefinition/category"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//PracticeDefinition/capability"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//PracticeDefinition/resourceDefinition"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//PracticeCategory">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//PracticeCategory/parentCategory"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//PracticeCategory/childCategory"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//PracticeCategory/categoryPractice"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//CapabilityDefinition">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityDefinition/output"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityDefinition/input"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityDefinition/capabilityResourceDefinition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityDefinition/practiceDefinition"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//BusinessItemCategory">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemCategory/parentCategory"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemCategory/childCategory"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemCategory/categoryItem"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//BusinessItemLibrary">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemLibrary/businessItemDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItemLibrary/businessItemcategory"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Actor"/>
+    <genClasses image="false" ecoreClass="vdml.ecore#//Participant">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Participant/assignment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Participant/participantCalendar"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="vdml.ecore#//MeasurableElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//MeasurableElement/measuredCharacteristic"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//MeasuredCharacteristic">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//MeasuredCharacteristic/measurement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//MeasuredCharacteristic/characteristicDefinition"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Assignment">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Assignment/assignedRole"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Assignment/assignableResource"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Assignment/participant"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Role">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Role/performedWork"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Role/port"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Role/roleResource"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Role/providedProposition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Role/receivedProposition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//Role/isLead"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Role/roleAssignment"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Activity">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Activity/capabilityRequirement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Activity/collaborationGoal"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Activity/resourceUse"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Activity/delegationContext"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Activity/appliedCapabilityOffer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Activity/duration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Activity/implementedPractice"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Activity/recurrenceInterval"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Activity/performingRole"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="vdml.ecore#//PortContainer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//PortContainer/containedPort"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="vdml.ecore#//Port">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//Port/isIntermediate"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Port/planningPercentage"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Port/batchSize"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Port/offset"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Port/condition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Port/handler"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Expression">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Expression/body"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Expression/operand"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Operand">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Operand/alias"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Operand/measuredCharacteristic"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Goal">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Goal/activity"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//ResourceUse">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ResourceUse/deliverable"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ResourceUse/resource"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ResourceUse/quantity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ResourceUse/duration"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ResourceUse/planningPercentage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//ResourceUse/inputDriven"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ResourceUse/condition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//ResourceUse/isExclusive"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//ResourceUse/resourceIsConsumed"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//OutputPort">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//OutputPort/output"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//OutputPort/outputDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//OutputPort/valueAdd"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//OutputPort/delegatedOutput"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//OutputPort/outputDelegation"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//OutputPort/resourceUse"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//DeliverableFlow">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//DeliverableFlow/recipient"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//DeliverableFlow/isTangible"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//DeliverableFlow/deliverable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//DeliverableFlow/duration"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//DeliverableFlow/channel"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//DeliverableFlow/provider"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//InputPort">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//InputPort/resourceUse"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//InputPort/delegatedInput"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//InputPort/inputDelegation"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//InputPort/role"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//InputPort/inputDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//InputPort/correlationExpression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//InputPort/input"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//InputDelegation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//InputDelegation/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//InputDelegation/target"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="vdml.ecore#//PortDelegation"/>
+    <genClasses ecoreClass="vdml.ecore#//BusinessItem">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItem/definition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//BusinessItem/isFungible"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItem/assignment"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItem/store"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItem/method"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//BusinessItem/isShareable"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessItem/flow"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Store">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference vdml.ecore#//Store/storeOwner"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Store/storeContext"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Store/supportedCapability"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Store/duration"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Store/inventoryLevel"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Store/resource"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//OrgUnit">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//OrgUnit/capabilityOffer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//OrgUnit/ownedMethod"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//OrgUnit/position"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//OrgUnit/location"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//OrgUnit/ownedStore"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Collaboration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Collaboration/collaborationRole"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Collaboration/goal"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Collaboration/activity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Collaboration/flow"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Collaboration/businessItem"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Collaboration/internalPortDelegation"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Collaboration/delegationContext"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Collaboration/scenario"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Collaboration/ownedAssignment"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//DelegationContext">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference vdml.ecore#//DelegationContext/parentContext"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//DelegationContext/contextBasedPortDelegation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//DelegationContext/contextBasedAssignment"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//DelegationContext/delegatedActivity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//DelegationContext/contextCollaboration"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="vdml.ecore#//AnalysisContext">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//AnalysisContext/delegationtContext"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//AnalysisContext/contextObservation"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//AnalysisContext/contextStore"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Scenario">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Scenario/horizon"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Scenario/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Scenario/releaseControl"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//Scenario/isDefault"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Scenario/heatThreshold"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Scenario/contextCollaboration"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//ReleaseControl">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ReleaseControl/strategy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ReleaseControl/scenario"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//CapabilityOffer">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityOffer/capability"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityOffer/capabilityResource"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityOffer/method"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityOffer/releaseControl"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityOffer/applyingActivity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityOffer/heatIndex"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityOffer/location"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityOffer/capabilityProvider"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//CapabilityMethod">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityMethod/performer"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityMethod/methodOwner"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityMethod/implementedPractice"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityMethod/methodResource"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//CapabilityMethod/supportedCapability"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Performer"/>
+    <genClasses ecoreClass="vdml.ecore#//Position">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Position/actorPool"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Pool">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Pool/poolCalendar"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Pool/poolSize"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//Pool/position"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//CalendarService"/>
+    <genClasses ecoreClass="vdml.ecore#//ValueAdd">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueAdd/valueMeasurement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueAdd/propositionComponent"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueAdd/valueDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueAdd/benchmark"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueAdd/aggregatedFrom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueAdd/aggregatedTo"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//ValuePropositionComponent">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValuePropositionComponent/percentageWeight"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValuePropositionComponent/componentValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValuePropositionComponent/satisfactionLevel"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValuePropositionComponent/articulatedValue"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//OutputDelegation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//OutputDelegation/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//OutputDelegation/target"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//ValueProposition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueProposition/component"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueProposition/recipient"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueProposition/propositionValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//ValueProposition/satisfactionLevel"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference vdml.ecore#//ValueProposition/provider"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//PracticeLibrary">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//PracticeLibrary/practiceDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//PracticeLibrary/practiceCategory"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//BusinessNetwork">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//BusinessNetwork/party"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Party">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Party/valueMargin"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Party/profit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute vdml.ecore#//Party/isFocalPoint"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Community">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference vdml.ecore#//Community/member"/>
+    </genClasses>
+    <genClasses ecoreClass="vdml.ecore#//Member"/>
+    <genClasses ecoreClass="vdml.ecore#//Person"/>
+    <genClasses ecoreClass="vdml.ecore#//CapabilityCategory"/>
+    <genClasses ecoreClass="vdml.ecore#//Integer"/>
+  </genPackages>
+  <genPackages prefix="Smm" disposableProviderFactory="true" ecorePackage="smm.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="smm.ecore#//Accumulator">
+      <genEnumLiterals ecoreEnumLiteral="smm.ecore#//Accumulator/sum"/>
+      <genEnumLiterals ecoreEnumLiteral="smm.ecore#//Accumulator/maximum"/>
+      <genEnumLiterals ecoreEnumLiteral="smm.ecore#//Accumulator/minimum"/>
+      <genEnumLiterals ecoreEnumLiteral="smm.ecore#//Accumulator/average"/>
+      <genEnumLiterals ecoreEnumLiteral="smm.ecore#//Accumulator/standardDeviation"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="smm.ecore#//String"/>
+    <genDataTypes ecoreDataType="smm.ecore#//Boolean"/>
+    <genDataTypes ecoreDataType="smm.ecore#//Date"/>
+    <genDataTypes ecoreDataType="smm.ecore#//Double"/>
+    <genDataTypes ecoreDataType="smm.ecore#//Timestamp"/>
+    <genClasses image="false" ecoreClass="smm.ecore#//AbstractMeasureElement"/>
+    <genClasses image="false" ecoreClass="smm.ecore#//SmmElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//SmmElement/attributes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//SmmElement/annotations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//SmmElement/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//SmmElement/shortDescription"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//SmmElement/description"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Attribute">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Attribute/tag"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Attribute/value"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Annotation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Annotation/text"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Argument">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Argument/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Argument/value"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Base1MeasureRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Base1MeasureRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Base1MeasureRelationship/to"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="smm.ecore#//MeasureRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//MeasureRelationship/measurandQuery"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="smm.ecore#//SmmRelationship"/>
+    <genClasses ecoreClass="smm.ecore#//Operation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Operation/language"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Operation/body"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//BinaryMeasure">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//BinaryMeasure/baseMeasure2To"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//BinaryMeasure/functor"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//BinaryMeasure/baseMeasure1To"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//DimensionalMeasure">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasure/unit"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasure/baseMeasureFrom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasure/baseMeasure1From"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasure/baseMeasure2From"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasure/rescaleTo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasure/rankingFrom"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="smm.ecore#//Measure">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/category"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/trait"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/scope"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//Measure/measureLabelFormat"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/refinementTo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/refinementFrom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/equivalentTo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/equivalentFrom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/recursiveTo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/recursiveFrom"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//Measure/measurementLabelFormat"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/visible"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/measureRelationships"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/defaultQuery"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/inbound"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measure/outbound"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//MeasureCategory">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//MeasureCategory/category"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//MeasureCategory/categoryElement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//MeasureCategory/categoryMeasure"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RefinementMeasureRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RefinementMeasureRelationship/to"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RefinementMeasureRelationship/from"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//EquivalentMeasureRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//EquivalentMeasureRelationship/mapping"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//EquivalentMeasureRelationship/to"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//EquivalentMeasureRelationship/from"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//BaseMeasureRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//BaseMeasureRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//BaseMeasureRelationship/to"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//CollectiveMeasure">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//CollectiveMeasure/accumulator"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//CollectiveMeasure/baseMeasureTo"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Base2MeasureRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Base2MeasureRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Base2MeasureRelationship/to"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RescaleMeasureRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RescaleMeasureRelationship/to"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RescaleMeasureRelationship/from"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RescaledMeasure">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RescaledMeasure/formula"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RescaledMeasure/rescaleFrom"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RankingMeasureRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RankingMeasureRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RankingMeasureRelationship/to"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Base1MeasurementRelationship">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference smm.ecore#//Base1MeasurementRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Base1MeasurementRelationship/to"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="smm.ecore#//MeasurementRelationship"/>
+    <genClasses ecoreClass="smm.ecore#//BinaryMeasurement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//BinaryMeasurement/baseMeasurement2To"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//BinaryMeasurement/isBaseSupplied"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//BinaryMeasurement/baseMeasurement1To"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="smm.ecore#//DimensionalMeasurement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasurement/value"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasurement/baseMeasurementFrom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasurement/baseMeasurement1From"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasurement/baseMeasurement2From"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasurement/rescaleTo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DimensionalMeasurement/rankingFrom"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="smm.ecore#//Measurement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/error"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/measurand"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/breakValue"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/refinementTo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/refinementFrom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/equivalentTo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/equivalentFrom"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/recursiveTo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/recursiveFrom"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/measurementRelationships"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/inbound"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Measurement/outbound"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RefinementMeasurementRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RefinementMeasurementRelationship/to"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RefinementMeasurementRelationship/from"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//EquivalentMeasurementRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//EquivalentMeasurementRelationship/to"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//EquivalentMeasurementRelationship/from"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RecursiveMeasurementRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RecursiveMeasurementRelationship/to"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RecursiveMeasurementRelationship/from"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//BaseMeasurementRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//BaseMeasurementRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//BaseMeasurementRelationship/to"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//CollectiveMeasurement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//CollectiveMeasurement/accumulator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//CollectiveMeasurement/isBaseSupplied"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//CollectiveMeasurement/baseMeasurementTo"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Base2MeasurementRelationship">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference smm.ecore#//Base2MeasurementRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Base2MeasurementRelationship/to"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RescaleMeasurementRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RescaleMeasurementRelationship/to"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RescaleMeasurementRelationship/from"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RescaledMeasurement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//RescaledMeasurement/isBaseSupplied"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RescaledMeasurement/rescaleFrom"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RankingMeasurementRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RankingMeasurementRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RankingMeasurementRelationship/to"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//CategoryRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//CategoryRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//CategoryRelationship/to"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Characteristic">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Characteristic/parent"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Count"/>
+    <genClasses ecoreClass="smm.ecore#//DirectMeasurement"/>
+    <genClasses ecoreClass="smm.ecore#//Counting"/>
+    <genClasses ecoreClass="smm.ecore#//DirectMeasure">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//DirectMeasure/operation"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Grade">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Grade/isBaseSupplied"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Grade/value"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Grade/rankingTo"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//MeasureLibrary">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//MeasureLibrary/measureElements"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//MeasureLibrary/categoryRelationships"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//MofElement"/>
+    <genClasses ecoreClass="smm.ecore#//NamedMeasure"/>
+    <genClasses ecoreClass="smm.ecore#//NamedMeasurement"/>
+    <genClasses ecoreClass="smm.ecore#//OclOperation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//OclOperation/context"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//OclOperation/body"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Observation">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Observation/observer"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Observation/tool"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Observation/whenObserved"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//Observation/scopes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//Observation/observedMeasures"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Observation/requestedMeasures"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//Observation/measurementRelations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//Observation/arguments"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//ObservationScope">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//ObservationScope/scopeUri"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//ObservedMeasure">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//ObservedMeasure/measure"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//ObservedMeasure/measurements"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Ranking">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//Ranking/interval"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Ranking/rankingTo"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RankingInterval">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//RankingInterval/maximumEndpoint"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RankingInterval/maximumOpen"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smm.ecore#//RankingInterval/minimumEndpoint"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RankingInterval/minimumOpen"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RankingInterval/symbol"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//RatioMeasure"/>
+    <genClasses ecoreClass="smm.ecore#//RatioMeasurement"/>
+    <genClasses ecoreClass="smm.ecore#//RecursiveMeasureRelationship">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RecursiveMeasureRelationship/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//RecursiveMeasureRelationship/to"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//Scope">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Scope/class"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Scope/recognizer"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smm.ecore#//Scope/breakCondition"/>
+    </genClasses>
+    <genClasses ecoreClass="smm.ecore#//SmmModel">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//SmmModel/observations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smm.ecore#//SmmModel/librairies"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

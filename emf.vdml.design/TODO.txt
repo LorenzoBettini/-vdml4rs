@@ -1,0 +1,5 @@
+Possibilità di aggiungere SourceTargetRole
+
+Menu per cambiare da Source a Target, ecc...
+
+Si può mostrare per un solo source role?

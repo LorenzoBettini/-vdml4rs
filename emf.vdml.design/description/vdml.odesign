@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="vdml" version="8.1.0">
+  <ownedViewpoints name="extvdml" modelFileExtension="vdml">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Value proposition exchange diagram" initialisation="true" domainClass="vdml.Collaboration">
+      <defaultLayer name="Default">
+        <nodeMappings name="RoleNode" semanticCandidatesExpression="[collaborationRole->getGenericRoles()/]" domainClass="vdml.Role">
+          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="TargetRoleNode" semanticCandidatesExpression="feature:collaborationRole" domainClass="vdml.TargetRole">
+          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SourceRoleNode" semanticCandidatesExpression="feature:collaborationRole" domainClass="vdml.SourceRole">
+          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ValuePropositionNode" semanticCandidatesExpression="[collaborationRole.providedProposition->getGenericValuePropositions()/]" domainClass="vdml.ValueProposition">
+          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_chocolate']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SubValuePropositionNode" semanticCandidatesExpression="[collaborationRole.providedProposition->getSubValuePropositions()/]" domainClass="vdml.SubValueProposition">
+          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_purple']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SubObValuePropositionNode" semanticCandidatesExpression="[collaborationRole.providedProposition/]" domainClass="vdml.SubObjValueProposition">
+          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ObValuePropositionNode" semanticCandidatesExpression="[collaborationRole.providedProposition->getObValuePropositions()/]" domainClass="vdml.ObValueProposition">
+          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="providerRoleEdge" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']" targetFinderExpression="feature:providedProposition" reconnections="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='moveProvidedValueProposition']">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="recipientRoleEdge" deletionDescription="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='deleteRecipientRole']" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']" targetFinderExpression="feature:recipient">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="targetSubPropositionEdge" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']" targetFinderExpression="feature:targetSubProposition">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="targetObPropositionEdge" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode']" targetFinderExpression="feature:targetObProposition">
+          <style lineStyle="dash_dot" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="roleSection" label="Roles">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createRoleNode" label="Create a Role" nodeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="vdml.Role" referenceName="collaborationRole"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createSourceRoleNode" label="Create a Source Role" nodeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="vdml.SourceRole" referenceName="collaborationRole"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createTargetRoleNode" label="Create a Target Role" nodeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="vdml.TargetRole" referenceName="collaborationRole"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="valuePropositionSection" label="Value Proposition">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createValuePropositionNode" label="Create a ValueProposition" nodeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']" extraMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container.collaborationRole->asSequence()->last()/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="vdml.ValueProposition" referenceName="providedProposition"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createObValuePropositionNode" label="Create an ObValueProposition" nodeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode']" extraMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container.collaborationRole->asSequence()->last()/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="vdml.ObValueProposition" referenceName="providedProposition"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createSubValuePropositionNode" label="Create an SubValueProposition" nodeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']" extraMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container.collaborationRole->asSequence()->last()/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="vdml.SubValueProposition" referenceName="providedProposition"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createSubObValuePropositionNode" label="Create an SubObValueProposition" nodeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']" extraMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container.collaborationRole->asSequence()->last()/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="vdml.SubObjValueProposition" referenceName="providedProposition"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="relationSection" label="Relations">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="createValuePropRecipient" label="Recipient for Value Proposition" edgeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='recipientRoleEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="recipient" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="createTargetObValueProposition" label="Objective Rate" edgeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='targetObPropositionEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="targetObProposition" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="createTargetSubValueProposition" label="Subjective Rate" edgeMappings="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='targetSubPropositionEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="targetSubProposition" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="deleteRecipientRole" label="Delete Recipient Relation">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="element">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="recipient" valueExpression="[null/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="moveProvidedValueProposition">
+            <source name="source"/>
+            <target name="target"/>
+            <sourceView name="sourceView"/>
+            <targetView name="targetView"/>
+            <element name="element"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="providedProposition" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+            <edgeView name="edgeView"/>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="ServiceJourneyMap" label="Service Journey Map" initialisation="true" domainClass="vdml.Collaboration">
+      <defaultLayer name="DefaultJourneyMap">
+        <nodeMappings name="JourneySourceRoleNode" semanticCandidatesExpression="feature:collaborationRole" domainClass="vdml.SourceRole">
+          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ActivityNode" semanticCandidatesExpression="feature:activity" domainClass="vdml.Activity">
+          <borderedNodeMappings name="ActivityPorts" semanticCandidatesExpression="feature:eAllContents" domainClass="vdml.Port">
+            <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="JourneyRoleNode" semanticCandidatesExpression="[collaborationRole->getGenericRoles()/]" domainClass="vdml.Role">
+          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="performingRoleEdge" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='ServiceJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyRoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='ServiceJourneyMap']/@defaultLayer/@nodeMappings[name='JourneySourceRoleNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='ServiceJourneyMap']/@defaultLayer/@nodeMappings[name='ActivityNode']" targetFinderExpression="feature:performedWork" reconnections="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='moveProvidedValueProposition']">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="rolePort" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='ServiceJourneyMap']/@defaultLayer/@nodeMappings[name='JourneySourceRoleNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='ServiceJourneyMap']/@defaultLayer/@nodeMappings[name='ActivityNode']/@borderedNodeMappings[name='ActivityPorts']" targetFinderExpression="feature:port" reconnections="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='moveProvidedValueProposition']">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="sourceTargetObTable" label="Source Target Objective Proposition Table" domainClass="vdml.Collaboration">
+      <ownedLineMappings name="roleLine" domainClass="vdml.ObValueProposition" semanticCandidatesExpression="[collaborationRole->getSourceRolesObValueProposition()/]" headerLabelExpression="feature:name"/>
+      <ownedColumnMappings name="ReputationTarget" label="Reputation Target" featureName="name" labelExpression="[current(0)/]" featureParentExpression="[container.obSource/]"/>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.RoleServices"/>
+    <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.ValuePropositionServices"/>
+  </ownedViewpoints>
+</description:Group>

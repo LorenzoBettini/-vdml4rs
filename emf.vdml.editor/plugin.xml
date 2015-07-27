@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated vdml -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="vdml.presentation.VdmlModelWizardID"
+            name="%_UI_VdmlModelWizard_label"
+            class="vdml.presentation.VdmlModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/VdmlModelFile.gif">
+         <description>%_UI_VdmlModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated vdml -->
+      <editor
+            id="vdml.presentation.VdmlEditorID"
+            name="%_UI_VdmlEditor_label"
+            icon="icons/full/obj16/VdmlModelFile.gif"
+            extensions="vdml"
+            class="vdml.presentation.VdmlEditor"
+            contributorClass="vdml.presentation.VdmlActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated vdml -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="smm.presentation.SmmModelWizardID"
+            name="%_UI_SmmModelWizard_label"
+            class="smm.presentation.SmmModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/SmmModelFile.gif">
+         <description>%_UI_SmmModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated vdml -->
+      <editor
+            id="smm.presentation.SmmEditorID"
+            name="%_UI_SmmEditor_label"
+            icon="icons/full/obj16/SmmModelFile.gif"
+            extensions="smm"
+            class="smm.presentation.SmmEditor"
+            contributorClass="smm.presentation.SmmActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdml:Collaboration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:vdml=" http://www.omg.org/spec/VDML/20120601/vdml.xmi">
+  <collaborationRole xsi:type="vdml:SourceRole" name="source role 1" port="//@activity.0/@containedPort.0"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="source role 2" port="//@activity.0/@containedPort.1"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="performing role" performedWork="//@activity.0"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="source role 11" port="//@activity.1/@containedPort.0"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="source role 22" port="//@activity.1/@containedPort.1"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="performing role 2" performedWork="//@activity.1"/>
+  <activity name="first activity" performingRole="//@collaborationRole.2">
+    <containedPort xsi:type="vdml:InputPort" name="input" handler="//@collaborationRole.0"/>
+    <containedPort xsi:type="vdml:OutputPort" name="output" handler="//@collaborationRole.1"/>
+  </activity>
+  <activity name="second activity" performingRole="//@collaborationRole.5">
+    <containedPort xsi:type="vdml:InputPort" name="input 1" handler="//@collaborationRole.3"/>
+    <containedPort xsi:type="vdml:OutputPort" name="output 2" handler="//@collaborationRole.4"/>
+  </activity>
+</vdml:Collaboration>
