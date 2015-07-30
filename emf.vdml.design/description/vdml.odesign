@@ -116,7 +116,7 @@
             <element name="element"/>
             <elementView name="elementView"/>
             <initialOperation>
-              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='ServiceJourneyMap']"/>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']"/>
             </initialOperation>
           </ownedTools>
         </toolSections>
@@ -257,6 +257,54 @@
           </style>
         </edgeMappings>
         <edgeMappings name="rolePort" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='ServiceJourneyMap']/@defaultLayer/@nodeMappings[name='JourneySourceRoleNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='ServiceJourneyMap']/@defaultLayer/@nodeMappings[name='ActivityNode']/@borderedNodeMappings[name='ActivityPorts']" targetFinderExpression="feature:port" reconnections="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='moveProvidedValueProposition']">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="SourceRoleJourneyMap" label="Source Role Journey Map" titleExpression="['Journey Map of ' + name/]" initialisation="true" domainClass="vdml.SourceRole">
+      <defaultLayer name="DefaultSourceRoleJourneyMap">
+        <nodeMappings name="JourneyMapSourceRoleNode" semanticCandidatesExpression="var:self" domainClass="vdml.SourceRole">
+          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="JourneyMapActivityNode" semanticCandidatesExpression="[performedWork/]" domainClass="vdml.Activity">
+          <borderedNodeMappings name="ActivityPorts" semanticCandidatesExpression="feature:eAllContents" domainClass="vdml.Port">
+            <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="JourneyMapRoleNode" semanticCandidatesExpression="[performedWork.containedPort->collect(p | p.handler)/]" domainClass="vdml.Role">
+          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="journeyMapPerformingRoleEdge" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode'] //@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapSourceRoleNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']" targetFinderExpression="feature:performedWork" reconnections="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='moveProvidedValueProposition']">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="journeyMapRolePort" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@borderedNodeMappings[name='ActivityPorts']" targetFinderExpression="feature:port" reconnections="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='moveProvidedValueProposition']">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
             <centerLabelStyleDescription>
