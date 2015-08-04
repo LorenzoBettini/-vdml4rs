@@ -81,7 +81,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h4s9RdFsEeSZSq4uXQDIxA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_h4nds9FsEeSZSq4uXQDIxA" fontName="Ubuntu" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h4ndtNFsEeSZSq4uXQDIxA" x="180" y="180" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_h4ndtNFsEeSZSq4uXQDIxA" x="192" y="137" width="30" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_h4or0NFsEeSZSq4uXQDIxA" type="2001" element="_h4fiBNFsEeSZSq4uXQDIxA">
             <children xmi:type="notation:Node" xmi:id="_h4pS4NFsEeSZSq4uXQDIxA" type="5002">
@@ -206,7 +206,7 @@
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_h4uycdFsEeSZSq4uXQDIxA"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_h4uyctFsEeSZSq4uXQDIxA" fontName="Ubuntu" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h4uyc9FsEeSZSq4uXQDIxA" points="[0, 0, -45, 60]$[45, -60, 0, 0]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_h4uyc9FsEeSZSq4uXQDIxA" points="[0, 0, -60, 97]$[60, -97, 0, 0]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h4vZhNFsEeSZSq4uXQDIxA" id="(0.5,0.0)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_h4wAkNFsEeSZSq4uXQDIxA" id="(0.5,1.0)"/>
           </edges>
@@ -446,7 +446,7 @@
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_swUdcdIkEeSs6sRKJKkz5g"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_swUdctIkEeSs6sRKJKkz5g" fontName="Ubuntu" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_swUdc9IkEeSs6sRKJKkz5g" points="[-4, -15, 147, 93]$[-136, -104, 15, 4]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_swUdc9IkEeSs6sRKJKkz5g" points="[-15, -6, 148, 59]$[-148, -55, 15, 10]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_swVEgNIkEeSs6sRKJKkz5g" id="(0.5,0.5)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_swVEgdIkEeSs6sRKJKkz5g" id="(0.5,0.5)"/>
           </edges>
@@ -503,22 +503,6 @@
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_vpTcIDaSEeWBdOV0uhqHbQ" source="DANNOTATION_CUSTOMIZATION_KEY">
         <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_vpTcITaSEeWBdOV0uhqHbQ"/>
       </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fh4dFsEeSZSq4uXQDIxA" name="ruolo1" outgoingEdges="_h4fiGNFsEeSZSq4uXQDIxA _rhBI0NIQEeSOF-R5-Gb_zQ _0Q8nMNItEeSvVPp7d2lg_g _eNFcgNIvEeSvVPp7d2lg_g _c98d8NIxEeSvVPp7d2lg_g" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.0"/>
-        <semanticElements xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.0"/>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_h4fh4tFsEeSZSq4uXQDIxA">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dpo_gNeFEeS7WsR0YLes7w" name="AAA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.9"/>
-        <semanticElements xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.9"/>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_dpo_gdeFEeS7WsR0YLes7w">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
-      </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_tGypgNFwEeSZSq4uXQDIxA" name="new role" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.6"/>
         <semanticElements xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.6"/>
@@ -538,6 +522,14 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
       </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dpo_gNeFEeS7WsR0YLes7w" name="AAA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.9"/>
+        <semanticElements xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.9"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_dpo_gdeFEeS7WsR0YLes7w">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
+      </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fh69FsEeSZSq4uXQDIxA" name="ruolo 2" incomingEdges="_rTM_MNIkEeSs6sRKJKkz5g _swKscNIkEeSs6sRKJKkz5g" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.1"/>
         <semanticElements xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.1"/>
@@ -545,6 +537,14 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_h4fh7NFsEeSZSq4uXQDIxA">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fh4dFsEeSZSq4uXQDIxA" name="ruolo1" outgoingEdges="_h4fiGNFsEeSZSq4uXQDIxA _rhBI0NIQEeSOF-R5-Gb_zQ _0Q8nMNItEeSvVPp7d2lg_g _eNFcgNIvEeSvVPp7d2lg_g _c98d8NIxEeSvVPp7d2lg_g" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.0"/>
+        <semanticElements xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.0"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_h4fh4tFsEeSZSq4uXQDIxA">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
@@ -612,18 +612,21 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fh_9FsEeSZSq4uXQDIxA" name="value prop" outgoingEdges="_swKscNIkEeSs6sRKJKkz5g" incomingEdges="_h4fiGNFsEeSZSq4uXQDIxA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.0"/>
-        <semanticElements xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.0"/>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_h4fiANFsEeSZSq4uXQDIxA" color="238,201,142">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']"/>
-      </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rgzGYNIQEeSOF-R5-Gb_zQ" outgoingEdges="_iYwR4NISEeSV_cSEW8B56Q" incomingEdges="_rhBI0NIQEeSOF-R5-Gb_zQ" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.2"/>
         <semanticElements xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.2"/>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_rgztcNIQEeSOF-R5-Gb_zQ" color="238,201,142">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fh_9FsEeSZSq4uXQDIxA" name="value prop" outgoingEdges="_swKscNIkEeSs6sRKJKkz5g" incomingEdges="_h4fiGNFsEeSZSq4uXQDIxA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_h4fiANFsEeSZSq4uXQDIxA" color="238,201,142">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']"/>
@@ -650,18 +653,18 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fiE9FsEeSZSq4uXQDIxA" name="role1 value proposition" outgoingEdges="_rTM_MNIkEeSs6sRKJKkz5g" incomingEdges="_0sEe8NIXEeSs6sRKJKkz5g _0Q8nMNItEeSvVPp7d2lg_g" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
-        <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_h4fiFNFsEeSZSq4uXQDIxA" color="204,242,166">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode']"/>
-      </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fiDtFsEeSZSq4uXQDIxA" name="objective value prop" outgoingEdges="_6hzZ8NFsEeSZSq4uXQDIxA" incomingEdges="_w6fqwNIXEeSs6sRKJKkz5g _eNFcgNIvEeSvVPp7d2lg_g" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_h4fiD9FsEeSZSq4uXQDIxA" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fiE9FsEeSZSq4uXQDIxA" name="role1 value proposition" outgoingEdges="_rTM_MNIkEeSs6sRKJKkz5g" incomingEdges="_0sEe8NIXEeSs6sRKJKkz5g _0Q8nMNItEeSvVPp7d2lg_g" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_h4fiFNFsEeSZSq4uXQDIxA" color="204,242,166">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ObValuePropositionNode']"/>
@@ -883,19 +886,46 @@
         <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedLineMappings[name='roleLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_eE7kIDp8EeWWd_pkO3BEqA" label="[Source Role]" column="_7jfwYDp7EeWWd_pkO3BEqA">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_030tITp8EeWWd_pkO3BEqA" label="Role ruolo1" column="_030tIDp8EeWWd_pkO3BEqA">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
       </lines>
       <lines xmi:type="table:DLine" xmi:id="_iXVoMPMlEeSQ048cCdOPjw" label="subobj value prop">
         <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
         <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
         <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedLineMappings[name='roleLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_eE8yQDp8EeWWd_pkO3BEqA" label="[Source Role]" column="_7jfwYDp7EeWWd_pkO3BEqA">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_031UMDp8EeWWd_pkO3BEqA" label="Target Role target role 1" column="_030tIDp8EeWWd_pkO3BEqA">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
       </lines>
       <lines xmi:type="table:DLine" xmi:id="_iXVoMfMlEeSQ048cCdOPjw" label="role1 value proposition">
         <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
         <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
         <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedLineMappings[name='roleLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_eE8yQTp8EeWWd_pkO3BEqA" label="[Source Role]" column="_7jfwYDp7EeWWd_pkO3BEqA">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_031UMTp8EeWWd_pkO3BEqA" label="Role ruolo1" column="_030tIDp8EeWWd_pkO3BEqA">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
       </lines>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_gXvq0PMsEeSQ048cCdOPjw" featureName="name">
-        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedColumnMappings[name='ReputationTarget']"/>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_7jfwYDp7EeWWd_pkO3BEqA" label="Reputation Source" cells="_eE7kIDp8EeWWd_pkO3BEqA _eE8yQDp8EeWWd_pkO3BEqA _eE8yQTp8EeWWd_pkO3BEqA" width="146" featureName="obSource">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedColumnMappings[name='ReputationSource']"/>
+      </columns>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_030tIDp8EeWWd_pkO3BEqA" label="Responsible Role" cells="_030tITp8EeWWd_pkO3BEqA _031UMDp8EeWWd_pkO3BEqA _031UMTp8EeWWd_pkO3BEqA" featureName="provider">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedColumnMappings[name='ResponsibleRole']"/>
       </columns>
       <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']"/>
     </ownedRepresentations>
@@ -1452,224 +1482,155 @@
       <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer"/>
       <target xmi:type="vdml:Collaboration" href="src/CollaborationServiceJourneyMap.vdml#/"/>
     </ownedRepresentations>
-    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_dlYcUDaVEeWBdOV0uhqHbQ" name="Journey Map of source role 1">
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_dlYcUTaVEeWBdOV0uhqHbQ" source="DANNOTATION_CUSTOMIZATION_KEY">
-        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_dlYcUjaVEeWBdOV0uhqHbQ"/>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_JTgk8DadEeWBdOV0uhqHbQ" name="Journey Map of performing role">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_JTgk8TadEeWBdOV0uhqHbQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_JTgk8jadEeWBdOV0uhqHbQ"/>
       </ownedAnnotationEntries>
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_dlZDYDaVEeWBdOV0uhqHbQ" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="_dlZDYTaVEeWBdOV0uhqHbQ" type="Sirius" element="_dlYcUDaVEeWBdOV0uhqHbQ" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_-EQicDaVEeWBdOV0uhqHbQ" type="2001" element="_-EGKYDaVEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_-ERJgDaVEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_-ERJgTaVEeWBdOV0uhqHbQ" x="31"/>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_JTogwDadEeWBdOV0uhqHbQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_JTogwTadEeWBdOV0uhqHbQ" type="Sirius" element="_JTgk8DadEeWBdOV0uhqHbQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_JTogwzadEeWBdOV0uhqHbQ" type="2001" element="_JTgk8zadEeWBdOV0uhqHbQ">
+            <children xmi:type="notation:Node" xmi:id="_JTpH0DadEeWBdOV0uhqHbQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JTpH0TadEeWBdOV0uhqHbQ" x="31"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_-ERJgjaVEeWBdOV0uhqHbQ" type="3016" element="_-EGKYTaVEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_-ERJgzaVEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ERJhDaVEeWBdOV0uhqHbQ"/>
+            <children xmi:type="notation:Node" xmi:id="_JTqV9TadEeWBdOV0uhqHbQ" type="3016" element="_JTgk9DadEeWBdOV0uhqHbQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_JTqV9jadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTqV9zadEeWBdOV0uhqHbQ"/>
             </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_-EQicTaVEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-EQicjaVEeWBdOV0uhqHbQ" x="156" y="120" width="30" height="30"/>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_JTogxDadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTogxTadEeWBdOV0uhqHbQ" x="348" y="192" width="30" height="30"/>
           </children>
-          <styles xmi:type="notation:DiagramStyle" xmi:id="_dlZDYjaVEeWBdOV0uhqHbQ"/>
-        </data>
-      </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_-EGKYDaVEeWBdOV0uhqHbQ" name="source role 1" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.0"/>
-        <semanticElements xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.0"/>
-        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-EGKYTaVEeWBdOV0uhqHbQ" color="253,206,137">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapSourceRoleNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapSourceRoleNode']"/>
-      </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']"/>
-      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_dlYcVTaVEeWBdOV0uhqHbQ"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer"/>
-      <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.0"/>
-    </ownedRepresentations>
-    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="__UgpYDaVEeWBdOV0uhqHbQ" name="Journey Map of source role 2">
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="__UgpYTaVEeWBdOV0uhqHbQ" source="DANNOTATION_CUSTOMIZATION_KEY">
-        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="__UgpYjaVEeWBdOV0uhqHbQ"/>
-      </ownedAnnotationEntries>
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="__UpzUDaVEeWBdOV0uhqHbQ" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="__UpzUTaVEeWBdOV0uhqHbQ" type="Sirius" element="__UgpYDaVEeWBdOV0uhqHbQ" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="__UpzUzaVEeWBdOV0uhqHbQ" type="2001" element="__UgpYzaVEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="__UpzVjaVEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="__UpzVzaVEeWBdOV0uhqHbQ" x="31"/>
+          <children xmi:type="notation:Node" xmi:id="_JTpH0jadEeWBdOV0uhqHbQ" type="2001" element="_JTgk9TadEeWBdOV0uhqHbQ">
+            <children xmi:type="notation:Node" xmi:id="_JTpH1TadEeWBdOV0uhqHbQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JTpH1jadEeWBdOV0uhqHbQ" x="31"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="__UqaYDaVEeWBdOV0uhqHbQ" type="3016" element="__UgpZDaVEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="__UqaYTaVEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__UqaYjaVEeWBdOV0uhqHbQ"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="__UpzVDaVEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__UpzVTaVEeWBdOV0uhqHbQ" width="30" height="30"/>
-          </children>
-          <styles xmi:type="notation:DiagramStyle" xmi:id="__UpzUjaVEeWBdOV0uhqHbQ"/>
-        </data>
-      </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="__UgpYzaVEeWBdOV0uhqHbQ" name="source role 2" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.1"/>
-        <semanticElements xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.1"/>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="__UgpZDaVEeWBdOV0uhqHbQ" color="253,206,137">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapSourceRoleNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapSourceRoleNode']"/>
-      </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']"/>
-      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="__UgpZTaVEeWBdOV0uhqHbQ"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer"/>
-      <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.1"/>
-    </ownedRepresentations>
-    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_3FYvADaZEeWBdOV0uhqHbQ" name="Journey Map of performing role">
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_3FYvATaZEeWBdOV0uhqHbQ" source="DANNOTATION_CUSTOMIZATION_KEY">
-        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_3FYvAjaZEeWBdOV0uhqHbQ"/>
-      </ownedAnnotationEntries>
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_3FZWEDaZEeWBdOV0uhqHbQ" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="_3FZWETaZEeWBdOV0uhqHbQ" type="Sirius" element="_3FYvADaZEeWBdOV0uhqHbQ" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_3FZWEzaZEeWBdOV0uhqHbQ" type="2001" element="_3FYvAzaZEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_3FZWFjaZEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_3FZWFzaZEeWBdOV0uhqHbQ" x="31"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_3FakMjaZEeWBdOV0uhqHbQ" type="3016" element="_3FYvBDaZEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_3FakMzaZEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3FakNDaZEeWBdOV0uhqHbQ"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_3FZWFDaZEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3FZWFTaZEeWBdOV0uhqHbQ" x="156" y="192" width="30" height="30"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_YU7AkDabEeWBdOV0uhqHbQ" type="2001" element="_YUx2oDabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_YU7AkzabEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_YU7AlDabEeWBdOV0uhqHbQ" x="31"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_YU7noDabEeWBdOV0uhqHbQ" type="3001" element="_YUydsTabEeWBdOV0uhqHbQ">
-              <children xmi:type="notation:Node" xmi:id="_YU7nozabEeWBdOV0uhqHbQ" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_YU7npDabEeWBdOV0uhqHbQ" x="31"/>
+            <children xmi:type="notation:Node" xmi:id="_JTq9ADadEeWBdOV0uhqHbQ" type="3001" element="_JTgk9jadEeWBdOV0uhqHbQ">
+              <children xmi:type="notation:Node" xmi:id="_JTq9AzadEeWBdOV0uhqHbQ" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_JTq9BDadEeWBdOV0uhqHbQ" x="31"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_YU81wzabEeWBdOV0uhqHbQ" type="3003" element="_YUydsjabEeWBdOV0uhqHbQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_YU81xDabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YU81xTabEeWBdOV0uhqHbQ"/>
+              <children xmi:type="notation:Node" xmi:id="_JTsLIzadEeWBdOV0uhqHbQ" type="3003" element="_JTgk9zadEeWBdOV0uhqHbQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_JTsLJDadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTsyMDadEeWBdOV0uhqHbQ"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_YU7noTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YU7nojabEeWBdOV0uhqHbQ" x="22" width="30" height="30"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_JTq9ATadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTq9AjadEeWBdOV0uhqHbQ" y="-22" width="30" height="30"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_YU7npTabEeWBdOV0uhqHbQ" type="3001" element="_YUzEwDabEeWBdOV0uhqHbQ">
-              <children xmi:type="notation:Node" xmi:id="_YU8OsDabEeWBdOV0uhqHbQ" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_YU8OsTabEeWBdOV0uhqHbQ" x="31"/>
+            <children xmi:type="notation:Node" xmi:id="_JTrkEDadEeWBdOV0uhqHbQ" type="3001" element="_JTgk-DadEeWBdOV0uhqHbQ">
+              <children xmi:type="notation:Node" xmi:id="_JTrkEzadEeWBdOV0uhqHbQ" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_JTrkFDadEeWBdOV0uhqHbQ" x="31"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_YU81xjabEeWBdOV0uhqHbQ" type="3003" element="_YUzEwTabEeWBdOV0uhqHbQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_YU81xzabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YU81yDabEeWBdOV0uhqHbQ"/>
+              <children xmi:type="notation:Node" xmi:id="_JTsyMTadEeWBdOV0uhqHbQ" type="3003" element="_JTgk-TadEeWBdOV0uhqHbQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_JTsyMjadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTsyMzadEeWBdOV0uhqHbQ"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_YU7npjabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YU7npzabEeWBdOV0uhqHbQ" x="-22" width="30" height="30"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_JTrkETadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTrkEjadEeWBdOV0uhqHbQ" x="-22" width="30" height="30"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_YU81wDabEeWBdOV0uhqHbQ" type="3003" element="_YUydsDabEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_YU81wTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YU81wjabEeWBdOV0uhqHbQ"/>
+            <children xmi:type="notation:Node" xmi:id="_JTsLIDadEeWBdOV0uhqHbQ" type="3003" element="_JTgk-jadEeWBdOV0uhqHbQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_JTsLITadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTsLIjadEeWBdOV0uhqHbQ"/>
             </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_YU7AkTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YU7AkjabEeWBdOV0uhqHbQ" x="360" y="72" width="30" height="30"/>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_JTpH0zadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTpH1DadEeWBdOV0uhqHbQ" x="348" y="24" width="30" height="30"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_g1BZYDabEeWBdOV0uhqHbQ" type="2001" element="_g0-WEDabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_g1CAcDabEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_g1CAcTabEeWBdOV0uhqHbQ" x="31"/>
+          <children xmi:type="notation:Node" xmi:id="_JTpu4DadEeWBdOV0uhqHbQ" type="2001" element="_JTgk-zadEeWBdOV0uhqHbQ">
+            <children xmi:type="notation:Node" xmi:id="_JTpu4zadEeWBdOV0uhqHbQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JTpu5DadEeWBdOV0uhqHbQ" x="31"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_g1DOkDabEeWBdOV0uhqHbQ" type="3016" element="_g0-WETabEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_g1DOkTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g1DOkjabEeWBdOV0uhqHbQ"/>
+            <children xmi:type="notation:Node" xmi:id="_JTsyNDadEeWBdOV0uhqHbQ" type="3016" element="_JTgk_DadEeWBdOV0uhqHbQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_JTsyNTadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTsyNjadEeWBdOV0uhqHbQ"/>
             </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_g1BZYTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g1BZYjabEeWBdOV0uhqHbQ" x="60" width="30" height="30"/>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_JTpu4TadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTpu4jadEeWBdOV0uhqHbQ" x="612" y="72" width="30" height="30"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_g1CAcjabEeWBdOV0uhqHbQ" type="2001" element="_g0-9IDabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_g1CngTabEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_g1CngjabEeWBdOV0uhqHbQ" x="31"/>
+          <children xmi:type="notation:Node" xmi:id="_JTqV8DadEeWBdOV0uhqHbQ" type="2001" element="_JTgk_TadEeWBdOV0uhqHbQ">
+            <children xmi:type="notation:Node" xmi:id="_JTqV8zadEeWBdOV0uhqHbQ" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JTqV9DadEeWBdOV0uhqHbQ" x="31"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_g1D1oDabEeWBdOV0uhqHbQ" type="3016" element="_g0-9ITabEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_g1D1oTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g1D1ojabEeWBdOV0uhqHbQ"/>
+            <children xmi:type="notation:Node" xmi:id="_JTtZQDadEeWBdOV0uhqHbQ" type="3016" element="_JTgk_jadEeWBdOV0uhqHbQ">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_JTtZQTadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTtZQjadEeWBdOV0uhqHbQ"/>
             </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_g1CAczabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g1CngDabEeWBdOV0uhqHbQ" x="552" y="12" width="30" height="30"/>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_JTqV8TadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTqV8jadEeWBdOV0uhqHbQ" x="96" y="96" width="30" height="30"/>
           </children>
-          <styles xmi:type="notation:DiagramStyle" xmi:id="_3FZWEjaZEeWBdOV0uhqHbQ"/>
-          <edges xmi:type="notation:Edge" xmi:id="_YU9c0DabEeWBdOV0uhqHbQ" type="4001" element="_YU4kUDabEeWBdOV0uhqHbQ" source="_3FZWEzaZEeWBdOV0uhqHbQ" target="_YU7AkDabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_YU9c1DabEeWBdOV0uhqHbQ" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YU9c1TabEeWBdOV0uhqHbQ" y="-10"/>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_JTogwjadEeWBdOV0uhqHbQ"/>
+          <edges xmi:type="notation:Edge" xmi:id="_JTtZQzadEeWBdOV0uhqHbQ" type="4001" element="_JTgk_zadEeWBdOV0uhqHbQ" source="_JTogwzadEeWBdOV0uhqHbQ" target="_JTpH0jadEeWBdOV0uhqHbQ">
+            <children xmi:type="notation:Node" xmi:id="_JTtZRzadEeWBdOV0uhqHbQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTtZSDadEeWBdOV0uhqHbQ" y="-10"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_YU9c1jabEeWBdOV0uhqHbQ" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YU9c1zabEeWBdOV0uhqHbQ" y="10"/>
+            <children xmi:type="notation:Node" xmi:id="_JTtZSTadEeWBdOV0uhqHbQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTtZSjadEeWBdOV0uhqHbQ" y="10"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_YU-D4DabEeWBdOV0uhqHbQ" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YU-D4TabEeWBdOV0uhqHbQ" y="10"/>
+            <children xmi:type="notation:Node" xmi:id="_JTuAUDadEeWBdOV0uhqHbQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTuAUTadEeWBdOV0uhqHbQ" y="10"/>
             </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_YU9c0TabEeWBdOV0uhqHbQ"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_YU9c0jabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YU9c0zabEeWBdOV0uhqHbQ" points="[0, 0, -204, 90]$[204, -90, 0, 0]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YU-D4jabEeWBdOV0uhqHbQ" id="(0.5,0.0)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YU-D4zabEeWBdOV0uhqHbQ" id="(0.5,1.0)"/>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_JTtZRDadEeWBdOV0uhqHbQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_JTtZRTadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JTtZRjadEeWBdOV0uhqHbQ" points="[0, 0, 0, 138]$[0, -138, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JTuAUjadEeWBdOV0uhqHbQ" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JTuAUzadEeWBdOV0uhqHbQ" id="(0.5,1.0)"/>
           </edges>
-          <edges xmi:type="notation:Edge" xmi:id="_xZhGcDabEeWBdOV0uhqHbQ" type="4001" element="_xZeDIDabEeWBdOV0uhqHbQ" source="_g1BZYDabEeWBdOV0uhqHbQ" target="_YU7npTabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_xZhtgDabEeWBdOV0uhqHbQ" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZhtgTabEeWBdOV0uhqHbQ" y="-10"/>
+          <edges xmi:type="notation:Edge" xmi:id="_JTuAVDadEeWBdOV0uhqHbQ" type="4001" element="_JTglAjadEeWBdOV0uhqHbQ" source="_JTpu4DadEeWBdOV0uhqHbQ" target="_JTrkEDadEeWBdOV0uhqHbQ">
+            <children xmi:type="notation:Node" xmi:id="_JTuAWDadEeWBdOV0uhqHbQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTuAWTadEeWBdOV0uhqHbQ" y="-10"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_xZhtgjabEeWBdOV0uhqHbQ" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZhtgzabEeWBdOV0uhqHbQ" y="10"/>
+            <children xmi:type="notation:Node" xmi:id="_JTuAWjadEeWBdOV0uhqHbQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTuAWzadEeWBdOV0uhqHbQ" y="10"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_xZiUkDabEeWBdOV0uhqHbQ" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZiUkTabEeWBdOV0uhqHbQ" y="10"/>
+            <children xmi:type="notation:Node" xmi:id="_JTunYDadEeWBdOV0uhqHbQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTunYTadEeWBdOV0uhqHbQ" y="10"/>
             </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_xZhGcTabEeWBdOV0uhqHbQ"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_xZhGcjabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xZhGczabEeWBdOV0uhqHbQ" points="[60, 0, 60, 0]$[338, 72, 338, 72]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xZiUkjabEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xZiUkzabEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_JTuAVTadEeWBdOV0uhqHbQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_JTuAVjadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JTuAVzadEeWBdOV0uhqHbQ" points="[-15, -2, 249, 24]$[-279, -24, -15, 2]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JTunYjadEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JTunYzadEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
           </edges>
-          <edges xmi:type="notation:Edge" xmi:id="_xZi7oDabEeWBdOV0uhqHbQ" type="4001" element="_xZeqMjabEeWBdOV0uhqHbQ" source="_g1CAcjabEeWBdOV0uhqHbQ" target="_YU7noDabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_xZi7pDabEeWBdOV0uhqHbQ" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZi7pTabEeWBdOV0uhqHbQ" y="-10"/>
+          <edges xmi:type="notation:Edge" xmi:id="_JTunZDadEeWBdOV0uhqHbQ" type="4001" element="_JTglBTadEeWBdOV0uhqHbQ" source="_JTqV8DadEeWBdOV0uhqHbQ" target="_JTq9ADadEeWBdOV0uhqHbQ">
+            <children xmi:type="notation:Node" xmi:id="_JTunaDadEeWBdOV0uhqHbQ" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTunaTadEeWBdOV0uhqHbQ" y="-10"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_xZi7pjabEeWBdOV0uhqHbQ" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZi7pzabEeWBdOV0uhqHbQ" y="10"/>
+            <children xmi:type="notation:Node" xmi:id="_JTunajadEeWBdOV0uhqHbQ" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTunazadEeWBdOV0uhqHbQ" y="10"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_xZi7qDabEeWBdOV0uhqHbQ" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xZi7qTabEeWBdOV0uhqHbQ" y="10"/>
+            <children xmi:type="notation:Node" xmi:id="_JTunbDadEeWBdOV0uhqHbQ" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JTunbTadEeWBdOV0uhqHbQ" y="10"/>
             </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_xZi7oTabEeWBdOV0uhqHbQ"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_xZi7ojabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xZi7ozabEeWBdOV0uhqHbQ" points="[552, 12, 552, 12]$[382, 72, 382, 72]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xZjisDabEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xZjisTabEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_JTunZTadEeWBdOV0uhqHbQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_JTunZjadEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JTunZzadEeWBdOV0uhqHbQ" points="[0, -15, -252, 79]$[237, -90, -15, 4]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JTvOcDadEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JTvOcTadEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
           </edges>
         </data>
       </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_3FYvAzaZEeWBdOV0uhqHbQ" name="performing role" outgoingEdges="_YU4kUDabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_JTgk8zadEeWBdOV0uhqHbQ" name="performing role" outgoingEdges="_JTgk_zadEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.2"/>
         <semanticElements xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.2"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_3FYvBDaZEeWBdOV0uhqHbQ" color="253,206,137">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_JTgk9DadEeWBdOV0uhqHbQ" color="253,206,137">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapSourceRoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapSourceRoleNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_YUx2oDabEeWBdOV0uhqHbQ" name="first activity" incomingEdges="_YU4kUDabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_JTgk9TadEeWBdOV0uhqHbQ" name="first activity" incomingEdges="_JTgk_zadEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/CollaborationServiceJourneyMap.vdml#//@activity.0"/>
         <semanticElements xmi:type="vdml:Activity" href="src/CollaborationServiceJourneyMap.vdml#//@activity.0"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_YUydsTabEeWBdOV0uhqHbQ" name="input" incomingEdges="_xZeqMjabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_JTgk9jadEeWBdOV0uhqHbQ" name="input" incomingEdges="_JTglBTadEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
           <target xmi:type="vdml:InputPort" href="src/CollaborationServiceJourneyMap.vdml#//@activity.0/@containedPort.0"/>
           <semanticElements xmi:type="vdml:InputPort" href="src/CollaborationServiceJourneyMap.vdml#//@activity.0/@containedPort.0"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_YUydsjabEeWBdOV0uhqHbQ" color="239,41,41">
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_JTgk9zadEeWBdOV0uhqHbQ" color="239,41,41">
             <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@borderedNodeMappings[name='ActivityPorts']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@borderedNodeMappings[name='ActivityPorts']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_YUzEwDabEeWBdOV0uhqHbQ" name="output" incomingEdges="_xZeDIDabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_JTgk-DadEeWBdOV0uhqHbQ" name="output" incomingEdges="_JTglAjadEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
           <target xmi:type="vdml:OutputPort" href="src/CollaborationServiceJourneyMap.vdml#//@activity.0/@containedPort.1"/>
           <semanticElements xmi:type="vdml:OutputPort" href="src/CollaborationServiceJourneyMap.vdml#//@activity.0/@containedPort.1"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_YUzEwTabEeWBdOV0uhqHbQ" color="239,41,41">
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_JTgk-TadEeWBdOV0uhqHbQ" color="239,41,41">
             <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@borderedNodeMappings[name='ActivityPorts']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@borderedNodeMappings[name='ActivityPorts']"/>
@@ -1677,261 +1638,58 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_YUydsDabEeWBdOV0uhqHbQ">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_JTgk-jadEeWBdOV0uhqHbQ">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_YU4kUDabEeWBdOV0uhqHbQ" sourceNode="_3FYvAzaZEeWBdOV0uhqHbQ" targetNode="_YUx2oDabEeWBdOV0uhqHbQ">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.2"/>
-        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_YU4kUTabEeWBdOV0uhqHbQ" lineStyle="dash" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapPerformingRoleEdge']/@style"/>
-          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_YU4kUjabEeWBdOV0uhqHbQ"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapPerformingRoleEdge']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_g0-WEDabEeWBdOV0uhqHbQ" name="source role 2" outgoingEdges="_xZeDIDabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_JTgk-zadEeWBdOV0uhqHbQ" name="source role 2" outgoingEdges="_JTglAjadEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.1"/>
         <semanticElements xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.1"/>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_g0-WETabEeWBdOV0uhqHbQ">
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_JTgk_DadEeWBdOV0uhqHbQ">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_g0-9IDabEeWBdOV0uhqHbQ" name="source role 1" outgoingEdges="_xZeqMjabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_JTgk_TadEeWBdOV0uhqHbQ" name="source role 1" outgoingEdges="_JTglBTadEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.0"/>
         <semanticElements xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.0"/>
-        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_g0-9ITabEeWBdOV0uhqHbQ">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_JTgk_jadEeWBdOV0uhqHbQ">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_xZeDIDabEeWBdOV0uhqHbQ" sourceNode="_g0-WEDabEeWBdOV0uhqHbQ" targetNode="_YUzEwDabEeWBdOV0uhqHbQ">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.1"/>
-        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_xZeqMDabEeWBdOV0uhqHbQ" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapRolePort']/@style"/>
-          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_xZeqMTabEeWBdOV0uhqHbQ"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapRolePort']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_xZeqMjabEeWBdOV0uhqHbQ" sourceNode="_g0-9IDabEeWBdOV0uhqHbQ" targetNode="_YUydsTabEeWBdOV0uhqHbQ">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.0"/>
-        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_xZeqMzabEeWBdOV0uhqHbQ" size="2">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapRolePort']/@style"/>
-          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_xZeqNDabEeWBdOV0uhqHbQ"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapRolePort']"/>
-      </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']"/>
-      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_3FYvDjaZEeWBdOV0uhqHbQ"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer"/>
-      <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.2"/>
-    </ownedRepresentations>
-    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_0oinMDabEeWBdOV0uhqHbQ" name="Journey Map of performing role 2">
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_0oinMTabEeWBdOV0uhqHbQ" source="DANNOTATION_CUSTOMIZATION_KEY">
-        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_0oinMjabEeWBdOV0uhqHbQ"/>
-      </ownedAnnotationEntries>
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_0op78DabEeWBdOV0uhqHbQ" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="_0op78TabEeWBdOV0uhqHbQ" type="Sirius" element="_0oinMDabEeWBdOV0uhqHbQ" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_0op78zabEeWBdOV0uhqHbQ" type="2001" element="_0oinMzabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_0op79jabEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_0op79zabEeWBdOV0uhqHbQ" x="31"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0orxIDabEeWBdOV0uhqHbQ" type="3016" element="_0oinNDabEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_0orxITabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0orxIjabEeWBdOV0uhqHbQ"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_0op79DabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0op79TabEeWBdOV0uhqHbQ" x="96" y="204" width="30" height="30"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_0oqjADabEeWBdOV0uhqHbQ" type="2001" element="_0oinNTabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_0oqjAzabEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_0oqjBDabEeWBdOV0uhqHbQ" x="31"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0orxIzabEeWBdOV0uhqHbQ" type="3001" element="_0oinNjabEeWBdOV0uhqHbQ">
-              <children xmi:type="notation:Node" xmi:id="_0orxJjabEeWBdOV0uhqHbQ" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_0orxJzabEeWBdOV0uhqHbQ" x="31"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_0os_QzabEeWBdOV0uhqHbQ" type="3003" element="_0oinNzabEeWBdOV0uhqHbQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_0os_RDabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0os_RTabEeWBdOV0uhqHbQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_0orxJDabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0orxJTabEeWBdOV0uhqHbQ" x="22" width="30" height="30"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0osYMDabEeWBdOV0uhqHbQ" type="3001" element="_0oinODabEeWBdOV0uhqHbQ">
-              <children xmi:type="notation:Node" xmi:id="_0osYMzabEeWBdOV0uhqHbQ" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_0osYNDabEeWBdOV0uhqHbQ" x="31"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_0os_RjabEeWBdOV0uhqHbQ" type="3003" element="_0oinOTabEeWBdOV0uhqHbQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_0os_RzabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0os_SDabEeWBdOV0uhqHbQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_0osYMTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0osYMjabEeWBdOV0uhqHbQ" x="-22" width="30" height="30"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0os_QDabEeWBdOV0uhqHbQ" type="3003" element="_0oinOjabEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_0os_QTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0os_QjabEeWBdOV0uhqHbQ"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_0oqjATabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0oqjAjabEeWBdOV0uhqHbQ" x="96" width="30" height="30"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_0oqjBTabEeWBdOV0uhqHbQ" type="2001" element="_0oinOzabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_0orKEjabEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_0orKEzabEeWBdOV0uhqHbQ" x="31"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0otmUDabEeWBdOV0uhqHbQ" type="3016" element="_0oinPDabEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_0otmUTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0otmUjabEeWBdOV0uhqHbQ"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_0orKEDabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0orKETabEeWBdOV0uhqHbQ" x="180" y="96" width="30" height="30"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_0orKFDabEeWBdOV0uhqHbQ" type="2001" element="_0oinPTabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_0orKFzabEeWBdOV0uhqHbQ" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_0orKGDabEeWBdOV0uhqHbQ" x="31"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0otmUzabEeWBdOV0uhqHbQ" type="3016" element="_0oinPjabEeWBdOV0uhqHbQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_0otmVDabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0otmVTabEeWBdOV0uhqHbQ"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_0orKFTabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0orKFjabEeWBdOV0uhqHbQ" y="96" width="30" height="30"/>
-          </children>
-          <styles xmi:type="notation:DiagramStyle" xmi:id="_0op78jabEeWBdOV0uhqHbQ"/>
-          <edges xmi:type="notation:Edge" xmi:id="_0otmVjabEeWBdOV0uhqHbQ" type="4001" element="_0oinPzabEeWBdOV0uhqHbQ" source="_0op78zabEeWBdOV0uhqHbQ" target="_0oqjADabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_0otmWjabEeWBdOV0uhqHbQ" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0otmWzabEeWBdOV0uhqHbQ" y="-10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0ouNYDabEeWBdOV0uhqHbQ" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ouNYTabEeWBdOV0uhqHbQ" y="10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0ouNYjabEeWBdOV0uhqHbQ" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ouNYzabEeWBdOV0uhqHbQ" y="10"/>
-            </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_0otmVzabEeWBdOV0uhqHbQ"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_0otmWDabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0otmWTabEeWBdOV0uhqHbQ" points="[0, 0, 0, 174]$[0, -174, 0, 0]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ouNZDabEeWBdOV0uhqHbQ" id="(0.5,0.0)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ouNZTabEeWBdOV0uhqHbQ" id="(0.5,1.0)"/>
-          </edges>
-          <edges xmi:type="notation:Edge" xmi:id="_0ouNZjabEeWBdOV0uhqHbQ" type="4001" element="_0oinQjabEeWBdOV0uhqHbQ" source="_0oqjBTabEeWBdOV0uhqHbQ" target="_0orxIzabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_0ouNajabEeWBdOV0uhqHbQ" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ouNazabEeWBdOV0uhqHbQ" y="-10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0ouNbDabEeWBdOV0uhqHbQ" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ouNbTabEeWBdOV0uhqHbQ" y="10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0ouNbjabEeWBdOV0uhqHbQ" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ouNbzabEeWBdOV0uhqHbQ" y="10"/>
-            </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_0ouNZzabEeWBdOV0uhqHbQ"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_0ouNaDabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0ouNaTabEeWBdOV0uhqHbQ" points="[-84, -81, -6, 43]$[6, -21, 84, 103]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ou0cDabEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ou0cTabEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
-          </edges>
-          <edges xmi:type="notation:Edge" xmi:id="_0ou0cjabEeWBdOV0uhqHbQ" type="4001" element="_0oinRTabEeWBdOV0uhqHbQ" source="_0orKFDabEeWBdOV0uhqHbQ" target="_0osYMDabEeWBdOV0uhqHbQ">
-            <children xmi:type="notation:Node" xmi:id="_0ou0djabEeWBdOV0uhqHbQ" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ou0dzabEeWBdOV0uhqHbQ" y="-10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0ou0eDabEeWBdOV0uhqHbQ" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ou0eTabEeWBdOV0uhqHbQ" y="10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_0ou0ejabEeWBdOV0uhqHbQ" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0ou0ezabEeWBdOV0uhqHbQ" y="10"/>
-            </children>
-            <styles xmi:type="notation:ConnectorStyle" xmi:id="_0ou0czabEeWBdOV0uhqHbQ"/>
-            <styles xmi:type="notation:FontStyle" xmi:id="_0ou0dDabEeWBdOV0uhqHbQ" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0ou0dTabEeWBdOV0uhqHbQ" points="[96, -81, -6, -1]$[6, -21, -96, 59]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ou0fDabEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
-            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ou0fTabEeWBdOV0uhqHbQ" id="(0.5,0.5)"/>
-          </edges>
-        </data>
-      </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0oinMzabEeWBdOV0uhqHbQ" name="performing role 2" outgoingEdges="_0oinPzabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.5"/>
-        <semanticElements xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.5"/>
-        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_0oinNDabEeWBdOV0uhqHbQ" color="253,206,137">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapSourceRoleNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapSourceRoleNode']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0oinNTabEeWBdOV0uhqHbQ" name="second activity" incomingEdges="_0oinPzabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:Activity" href="src/CollaborationServiceJourneyMap.vdml#//@activity.1"/>
-        <semanticElements xmi:type="vdml:Activity" href="src/CollaborationServiceJourneyMap.vdml#//@activity.1"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_0oinNjabEeWBdOV0uhqHbQ" name="input 1" incomingEdges="_0oinQjabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
-          <target xmi:type="vdml:InputPort" href="src/CollaborationServiceJourneyMap.vdml#//@activity.1/@containedPort.0"/>
-          <semanticElements xmi:type="vdml:InputPort" href="src/CollaborationServiceJourneyMap.vdml#//@activity.1/@containedPort.0"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_0oinNzabEeWBdOV0uhqHbQ" color="239,41,41">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@borderedNodeMappings[name='ActivityPorts']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@borderedNodeMappings[name='ActivityPorts']"/>
-        </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_0oinODabEeWBdOV0uhqHbQ" name="output 2" incomingEdges="_0oinRTabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
-          <target xmi:type="vdml:OutputPort" href="src/CollaborationServiceJourneyMap.vdml#//@activity.1/@containedPort.1"/>
-          <semanticElements xmi:type="vdml:OutputPort" href="src/CollaborationServiceJourneyMap.vdml#//@activity.1/@containedPort.1"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_0oinOTabEeWBdOV0uhqHbQ" color="239,41,41">
-            <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@borderedNodeMappings[name='ActivityPorts']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@borderedNodeMappings[name='ActivityPorts']"/>
-        </ownedBorderedNodes>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_0oinOjabEeWBdOV0uhqHbQ">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapActivityNode']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0oinOzabEeWBdOV0uhqHbQ" name="source role 11" outgoingEdges="_0oinQjabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.3"/>
-        <semanticElements xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.3"/>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_0oinPDabEeWBdOV0uhqHbQ">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0oinPTabEeWBdOV0uhqHbQ" name="source role 22" outgoingEdges="_0oinRTabEeWBdOV0uhqHbQ" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.4"/>
-        <semanticElements xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.4"/>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_0oinPjabEeWBdOV0uhqHbQ">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@nodeMappings[name='JourneyMapRoleNode']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_0oinPzabEeWBdOV0uhqHbQ" sourceNode="_0oinMzabEeWBdOV0uhqHbQ" targetNode="_0oinNTabEeWBdOV0uhqHbQ">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.5"/>
-        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_0oinQDabEeWBdOV0uhqHbQ" lineStyle="dash" size="2">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_JTgk_zadEeWBdOV0uhqHbQ" sourceNode="_JTgk8zadEeWBdOV0uhqHbQ" targetNode="_JTgk9TadEeWBdOV0uhqHbQ">
+        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_JTglADadEeWBdOV0uhqHbQ" lineStyle="dash" size="2">
           <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapPerformingRoleEdge']/@style"/>
-          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_0oinQTabEeWBdOV0uhqHbQ"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_JTglATadEeWBdOV0uhqHbQ"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapPerformingRoleEdge']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_0oinQjabEeWBdOV0uhqHbQ" sourceNode="_0oinOzabEeWBdOV0uhqHbQ" targetNode="_0oinNjabEeWBdOV0uhqHbQ">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.3"/>
-        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_0oinQzabEeWBdOV0uhqHbQ" size="2">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_JTglAjadEeWBdOV0uhqHbQ" sourceNode="_JTgk-zadEeWBdOV0uhqHbQ" targetNode="_JTgk-DadEeWBdOV0uhqHbQ">
+        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_JTglAzadEeWBdOV0uhqHbQ" size="2">
           <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapRolePort']/@style"/>
-          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_0oinRDabEeWBdOV0uhqHbQ"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_JTglBDadEeWBdOV0uhqHbQ"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapRolePort']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_0oinRTabEeWBdOV0uhqHbQ" sourceNode="_0oinPTabEeWBdOV0uhqHbQ" targetNode="_0oinODabEeWBdOV0uhqHbQ">
-        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.4"/>
-        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_0oinRjabEeWBdOV0uhqHbQ" size="2">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_JTglBTadEeWBdOV0uhqHbQ" sourceNode="_JTgk_TadEeWBdOV0uhqHbQ" targetNode="_JTgk9jadEeWBdOV0uhqHbQ">
+        <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.0"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_JTglBjadEeWBdOV0uhqHbQ" size="2">
           <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapRolePort']/@style"/>
-          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_0oinRzabEeWBdOV0uhqHbQ"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_JTglBzadEeWBdOV0uhqHbQ"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer/@edgeMappings[name='journeyMapRolePort']"/>
       </ownedDiagramElements>
       <description xmi:type="description_1:DiagramDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']"/>
-      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_0oinSDabEeWBdOV0uhqHbQ"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_JTglCDadEeWBdOV0uhqHbQ"/>
       <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer"/>
-      <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.5"/>
+      <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.2"/>
     </ownedRepresentations>
     <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']"/>
   </ownedViews>

@@ -316,7 +316,8 @@
     </ownedRepresentations>
     <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="sourceTargetObTable" label="Source Target Objective Proposition Table" domainClass="vdml.Collaboration">
       <ownedLineMappings name="roleLine" domainClass="vdml.ObValueProposition" semanticCandidatesExpression="[collaborationRole->getSourceRolesObValueProposition()/]" headerLabelExpression="feature:name"/>
-      <ownedColumnMappings name="ReputationTarget" label="Reputation Target" featureName="name" labelExpression="[current(0)/]" featureParentExpression="[container.obSource/]"/>
+      <ownedColumnMappings name="ReputationSource" headerLabelExpression="Reputation Source" featureName="obSource"/>
+      <ownedColumnMappings name="ResponsibleRole" headerLabelExpression="Responsible Role" featureName="provider"/>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.RoleServices"/>
     <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.ValuePropositionServices"/>
