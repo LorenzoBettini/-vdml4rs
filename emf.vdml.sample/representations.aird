@@ -193,6 +193,28 @@
             <styles xmi:type="notation:ShapeStyle" xmi:id="_dqxn8deFEeS7WsR0YLes7w" fontName="Ubuntu" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dqxn8teFEeS7WsR0YLes7w" x="560" y="164" width="30" height="30"/>
           </children>
+          <children xmi:type="notation:Node" xmi:id="_FgyFoDqMEeWX6JAzpbwBPw" type="2001" element="_FgOE8DqMEeWX6JAzpbwBPw">
+            <children xmi:type="notation:Node" xmi:id="_Fg3lMDqMEeWX6JAzpbwBPw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Fg3lMTqMEeWX6JAzpbwBPw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhAIEDqMEeWX6JAzpbwBPw" type="3016" element="_FgOsADqMEeWX6JAzpbwBPw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_FhAIETqMEeWX6JAzpbwBPw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhAIEjqMEeWX6JAzpbwBPw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_FgyFoTqMEeWX6JAzpbwBPw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FgyFojqMEeWX6JAzpbwBPw" x="192" y="324" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Fg-S4DqMEeWX6JAzpbwBPw" type="2001" element="_FgULkDqMEeWX6JAzpbwBPw">
+            <children xmi:type="notation:Node" xmi:id="_Fg-58DqMEeWX6JAzpbwBPw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Fg-58TqMEeWX6JAzpbwBPw" x="31"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhAvIDqMEeWX6JAzpbwBPw" type="3003" element="_FgULkTqMEeWX6JAzpbwBPw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_FhAvITqMEeWX6JAzpbwBPw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhAvIjqMEeWX6JAzpbwBPw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Fg-S4TqMEeWX6JAzpbwBPw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Fg-S4jqMEeWX6JAzpbwBPw" x="192" y="-60" width="30" height="30"/>
+          </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_h4jMQtFsEeSZSq4uXQDIxA"/>
           <edges xmi:type="notation:Edge" xmi:id="_h4uycNFsEeSZSq4uXQDIxA" type="4001" element="_h4fiGNFsEeSZSq4uXQDIxA" source="_h4jzUNFsEeSZSq4uXQDIxA" target="_h4ndstFsEeSZSq4uXQDIxA">
             <children xmi:type="notation:Node" xmi:id="_h4uydNFsEeSZSq4uXQDIxA" type="6001">
@@ -303,7 +325,7 @@
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_iZzawdISEeSV_cSEW8B56Q"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_iZzawtISEeSV_cSEW8B56Q" fontName="Ubuntu" fontHeight="8"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iZzaw9ISEeSV_cSEW8B56Q" points="[0, 0, 113, 44]$[-113, -44, 0, 0]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iaZQoNISEeSV_cSEW8B56Q" id="(0.0,0.4838709677419355)"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iaZQoNISEeSV_cSEW8B56Q" id="(0.0,0.48387096774193544)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iaZQodISEeSV_cSEW8B56Q" id="(1.0,0.5)"/>
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_w6qp4NIXEeSs6sRKJKkz5g" type="4001" element="_w6OlANIXEeSs6sRKJKkz5g" source="_7Px9cNFwEeSZSq4uXQDIxA" target="_h4pS4tFsEeSZSq4uXQDIxA">
@@ -399,7 +421,7 @@
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_CryiIdIYEeSs6sRKJKkz5g"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_CryiItIYEeSs6sRKJKkz5g" fontName="Ubuntu" fontHeight="8"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CryiI9IYEeSs6sRKJKkz5g" points="[0, 0, 8, 36]$[-8, -36, 0, 0]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CsBystIYEeSs6sRKJKkz5g" id="(0.4838709677419355,0.0)"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CsBystIYEeSs6sRKJKkz5g" id="(0.48387096774193544,0.0)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CsBys9IYEeSs6sRKJKkz5g" id="(0.03225806451612903,1.0)"/>
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_EunVgNIYEeSs6sRKJKkz5g" type="4001" element="_EstRANIYEeSs6sRKJKkz5g" source="_h4m2otFsEeSZSq4uXQDIxA" target="_h4pS4tFsEeSZSq4uXQDIxA">
@@ -498,11 +520,83 @@
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c-HdENIxEeSvVPp7d2lg_g" id="(0.5,0.5)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c-HdEdIxEeSvVPp7d2lg_g" id="(0.5,0.5)"/>
           </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_FhMVUDqMEeWX6JAzpbwBPw" type="4001" element="_FgfKsDqMEeWX6JAzpbwBPw" source="_FgyFoDqMEeWX6JAzpbwBPw" target="_Fg-S4DqMEeWX6JAzpbwBPw">
+            <children xmi:type="notation:Node" xmi:id="_FhNjcDqMEeWX6JAzpbwBPw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhNjcTqMEeWX6JAzpbwBPw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhNjcjqMEeWX6JAzpbwBPw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhNjczqMEeWX6JAzpbwBPw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhOKgDqMEeWX6JAzpbwBPw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhOKgTqMEeWX6JAzpbwBPw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_FhMVUTqMEeWX6JAzpbwBPw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_FhMVUjqMEeWX6JAzpbwBPw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FhMVUzqMEeWX6JAzpbwBPw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FhU4MDqMEeWX6JAzpbwBPw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FhU4MTqMEeWX6JAzpbwBPw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_FhVfQDqMEeWX6JAzpbwBPw" type="4001" element="_FgjcIDqMEeWX6JAzpbwBPw" source="_FgyFoDqMEeWX6JAzpbwBPw" target="_Fg-S4DqMEeWX6JAzpbwBPw">
+            <children xmi:type="notation:Node" xmi:id="_FhVfRDqMEeWX6JAzpbwBPw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhVfRTqMEeWX6JAzpbwBPw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhVfRjqMEeWX6JAzpbwBPw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhVfRzqMEeWX6JAzpbwBPw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhVfSDqMEeWX6JAzpbwBPw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhVfSTqMEeWX6JAzpbwBPw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_FhVfQTqMEeWX6JAzpbwBPw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_FhVfQjqMEeWX6JAzpbwBPw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FhVfQzqMEeWX6JAzpbwBPw" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FhWGUDqMEeWX6JAzpbwBPw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FhWGUTqMEeWX6JAzpbwBPw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_FhWGUjqMEeWX6JAzpbwBPw" type="4001" element="_FgkDMDqMEeWX6JAzpbwBPw" source="_FgyFoDqMEeWX6JAzpbwBPw" target="_h4or0NFsEeSZSq4uXQDIxA">
+            <children xmi:type="notation:Node" xmi:id="_FhWtYDqMEeWX6JAzpbwBPw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhWtYTqMEeWX6JAzpbwBPw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhWtYjqMEeWX6JAzpbwBPw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhWtYzqMEeWX6JAzpbwBPw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhWtZDqMEeWX6JAzpbwBPw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhWtZTqMEeWX6JAzpbwBPw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_FhWGUzqMEeWX6JAzpbwBPw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_FhWGVDqMEeWX6JAzpbwBPw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FhWGVTqMEeWX6JAzpbwBPw" points="[0, 0, 95, 60]$[-95, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FhXUcDqMEeWX6JAzpbwBPw" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FhXUcTqMEeWX6JAzpbwBPw" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_FhXUcjqMEeWX6JAzpbwBPw" type="4001" element="_Fgl4YDqMEeWX6JAzpbwBPw" source="_h4m2otFsEeSZSq4uXQDIxA" target="_h4p58tFsEeSZSq4uXQDIxA">
+            <children xmi:type="notation:Node" xmi:id="_FhXUdjqMEeWX6JAzpbwBPw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhXUdzqMEeWX6JAzpbwBPw" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhX7gDqMEeWX6JAzpbwBPw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhX7gTqMEeWX6JAzpbwBPw" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_FhX7gjqMEeWX6JAzpbwBPw" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FhX7gzqMEeWX6JAzpbwBPw" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_FhXUczqMEeWX6JAzpbwBPw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_FhXUdDqMEeWX6JAzpbwBPw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FhXUdTqMEeWX6JAzpbwBPw" points="[336, 125, 336, 125]$[132, 0, 132, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FhYikDqMEeWX6JAzpbwBPw" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FhYikTqMEeWX6JAzpbwBPw" id="(0.5,0.5)"/>
+          </edges>
         </data>
       </ownedAnnotationEntries>
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_vpTcIDaSEeWBdOV0uhqHbQ" source="DANNOTATION_CUSTOMIZATION_KEY">
         <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_vpTcITaSEeWBdOV0uhqHbQ"/>
       </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dpo_gNeFEeS7WsR0YLes7w" name="AAA" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.9"/>
+        <semanticElements xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.9"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_dpo_gdeFEeS7WsR0YLes7w">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
+      </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_tGypgNFwEeSZSq4uXQDIxA" name="new role" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.6"/>
         <semanticElements xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.6"/>
@@ -518,14 +612,6 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_h4fh59FsEeSZSq4uXQDIxA">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
-      </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_dpo_gNeFEeS7WsR0YLes7w" name="AAA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.9"/>
-        <semanticElements xmi:type="vdml:Role" href="src/Collaboration.vdml#//@collaborationRole.9"/>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_dpo_gdeFEeS7WsR0YLes7w">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
@@ -579,7 +665,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fh-tFsEeSZSq4uXQDIxA" name="source role" outgoingEdges="_CqVwoNIYEeSs6sRKJKkz5g _EstRANIYEeSs6sRKJKkz5g" incomingEdges="_h4fiNtFsEeSZSq4uXQDIxA _6hzZ8NFsEeSZSq4uXQDIxA" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fh-tFsEeSZSq4uXQDIxA" name="2" outgoingEdges="_CqVwoNIYEeSs6sRKJKkz5g _EstRANIYEeSs6sRKJKkz5g _Fgl4YDqMEeWX6JAzpbwBPw" incomingEdges="_h4fiNtFsEeSZSq4uXQDIxA _6hzZ8NFsEeSZSq4uXQDIxA" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.5"/>
         <semanticElements xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.5"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -590,7 +676,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_7O3-gNFwEeSZSq4uXQDIxA" outgoingEdges="_w6OlANIXEeSs6sRKJKkz5g _w6PMENIXEeSs6sRKJKkz5g _w6fqwNIXEeSs6sRKJKkz5g _w6gR0NIXEeSs6sRKJKkz5g _0sEe8NIXEeSs6sRKJKkz5g" incomingEdges="_iYwR4NISEeSV_cSEW8B56Q" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_7O3-gNFwEeSZSq4uXQDIxA" name="1" outgoingEdges="_w6OlANIXEeSs6sRKJKkz5g _w6PMENIXEeSs6sRKJKkz5g _w6fqwNIXEeSs6sRKJKkz5g _w6gR0NIXEeSs6sRKJKkz5g _0sEe8NIXEeSs6sRKJKkz5g" incomingEdges="_iYwR4NISEeSV_cSEW8B56Q" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.7"/>
         <semanticElements xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.7"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -601,16 +687,13 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_eM-HwNIvEeSvVPp7d2lg_g" incomingEdges="_c98d8NIxEeSvVPp7d2lg_g" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.3"/>
-        <semanticElements xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.3"/>
-        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_eM-HwdIvEeSvVPp7d2lg_g" color="238,201,142">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']/@style"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FgOE8DqMEeWX6JAzpbwBPw" name="3" outgoingEdges="_FgfKsDqMEeWX6JAzpbwBPw _FgjcIDqMEeWX6JAzpbwBPw _FgkDMDqMEeWX6JAzpbwBPw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.10"/>
+        <semanticElements xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.10"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_FgOsADqMEeWX6JAzpbwBPw" color="253,206,137">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rgzGYNIQEeSOF-R5-Gb_zQ" outgoingEdges="_iYwR4NISEeSV_cSEW8B56Q" incomingEdges="_rhBI0NIQEeSOF-R5-Gb_zQ" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.2"/>
@@ -631,13 +714,32 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fiBNFsEeSZSq4uXQDIxA" name="subjective value prop" outgoingEdges="_h4fiNtFsEeSZSq4uXQDIxA" incomingEdges="_h4fiItFsEeSZSq4uXQDIxA _w6PMENIXEeSs6sRKJKkz5g _CqVwoNIYEeSs6sRKJKkz5g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_eM-HwNIvEeSvVPp7d2lg_g" incomingEdges="_c98d8NIxEeSvVPp7d2lg_g" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.3"/>
+        <semanticElements xmi:type="vdml:ValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.3"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_eM-HwdIvEeSvVPp7d2lg_g" color="238,201,142">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fiBNFsEeSZSq4uXQDIxA" name="subjective value prop" outgoingEdges="_h4fiNtFsEeSZSq4uXQDIxA" incomingEdges="_h4fiItFsEeSZSq4uXQDIxA _w6PMENIXEeSs6sRKJKkz5g _CqVwoNIYEeSs6sRKJKkz5g _FgkDMDqMEeWX6JAzpbwBPw" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
         <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_h4fiBdFsEeSZSq4uXQDIxA" color="217,196,215">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_FgULkDqMEeWX6JAzpbwBPw" name="sub val prop" incomingEdges="_FgfKsDqMEeWX6JAzpbwBPw _FgjcIDqMEeWX6JAzpbwBPw" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_FgULkTqMEeWX6JAzpbwBPw" color="217,196,215">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']"/>
@@ -653,7 +755,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fiDtFsEeSZSq4uXQDIxA" name="objective value prop" outgoingEdges="_6hzZ8NFsEeSZSq4uXQDIxA" incomingEdges="_w6fqwNIXEeSs6sRKJKkz5g _eNFcgNIvEeSvVPp7d2lg_g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_h4fiDtFsEeSZSq4uXQDIxA" name="objective value prop" outgoingEdges="_6hzZ8NFsEeSZSq4uXQDIxA" incomingEdges="_w6fqwNIXEeSs6sRKJKkz5g _eNFcgNIvEeSvVPp7d2lg_g _Fgl4YDqMEeWX6JAzpbwBPw" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_h4fiD9FsEeSZSq4uXQDIxA" color="204,242,166">
@@ -821,6 +923,38 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='providerRoleEdge']"/>
       </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FgfKsDqMEeWX6JAzpbwBPw" sourceNode="_FgOE8DqMEeWX6JAzpbwBPw" targetNode="_FgULkDqMEeWX6JAzpbwBPw">
+        <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.10"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FgfKsTqMEeWX6JAzpbwBPw" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='providerRoleEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FgfKsjqMEeWX6JAzpbwBPw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='providerRoleEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FgjcIDqMEeWX6JAzpbwBPw" sourceNode="_FgOE8DqMEeWX6JAzpbwBPw" targetNode="_FgULkDqMEeWX6JAzpbwBPw">
+        <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.10"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FgjcITqMEeWX6JAzpbwBPw" lineStyle="dash" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='targetSubPropositionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FgjcIjqMEeWX6JAzpbwBPw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='targetSubPropositionEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FgkDMDqMEeWX6JAzpbwBPw" sourceNode="_FgOE8DqMEeWX6JAzpbwBPw" targetNode="_h4fiBNFsEeSZSq4uXQDIxA">
+        <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.10"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FgkDMTqMEeWX6JAzpbwBPw" lineStyle="dash" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='targetSubPropositionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FgkDMjqMEeWX6JAzpbwBPw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='targetSubPropositionEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Fgl4YDqMEeWX6JAzpbwBPw" sourceNode="_h4fh-tFsEeSZSq4uXQDIxA" targetNode="_h4fiDtFsEeSZSq4uXQDIxA">
+        <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.5"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_FgmfcDqMEeWX6JAzpbwBPw" lineStyle="dash_dot" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='targetObPropositionEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_FgmfcTqMEeWX6JAzpbwBPw"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@edgeMappings[name='targetObPropositionEdge']"/>
+      </ownedDiagramElements>
       <description xmi:type="description_1:DiagramDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']"/>
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_h4gI-NFsEeSZSq4uXQDIxA"/>
       <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer"/>
@@ -886,7 +1020,7 @@
         <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedLineMappings[name='roleLine']"/>
-        <cells xmi:type="table:DCell" xmi:id="_eE7kIDp8EeWWd_pkO3BEqA" label="[Source Role]" column="_7jfwYDp7EeWWd_pkO3BEqA">
+        <cells xmi:type="table:DCell" xmi:id="_eE7kIDp8EeWWd_pkO3BEqA" label="[Source Role 1, Source Role 2]" column="_7jfwYDp7EeWWd_pkO3BEqA">
           <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
           <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         </cells>
@@ -903,7 +1037,7 @@
         <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
         <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
         <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedLineMappings[name='roleLine']"/>
-        <cells xmi:type="table:DCell" xmi:id="_eE8yQDp8EeWWd_pkO3BEqA" label="[Source Role]" column="_7jfwYDp7EeWWd_pkO3BEqA">
+        <cells xmi:type="table:DCell" xmi:id="_eE8yQDp8EeWWd_pkO3BEqA" label="[Source Role 1]" column="_7jfwYDp7EeWWd_pkO3BEqA">
           <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
           <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
         </cells>
@@ -920,7 +1054,7 @@
         <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
         <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
         <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedLineMappings[name='roleLine']"/>
-        <cells xmi:type="table:DCell" xmi:id="_eE8yQTp8EeWWd_pkO3BEqA" label="[Source Role]" column="_7jfwYDp7EeWWd_pkO3BEqA">
+        <cells xmi:type="table:DCell" xmi:id="_eE8yQTp8EeWWd_pkO3BEqA" label="[Source Role 1]" column="_7jfwYDp7EeWWd_pkO3BEqA">
           <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
           <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
         </cells>
@@ -933,7 +1067,7 @@
           <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
         </cells>
       </lines>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_7jfwYDp7EeWWd_pkO3BEqA" label="Reputation Source" cells="_eE7kIDp8EeWWd_pkO3BEqA _eE8yQDp8EeWWd_pkO3BEqA _eE8yQTp8EeWWd_pkO3BEqA" width="146" featureName="obSource">
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_7jfwYDp7EeWWd_pkO3BEqA" label="Reputation Source" cells="_eE7kIDp8EeWWd_pkO3BEqA _eE8yQDp8EeWWd_pkO3BEqA _eE8yQTp8EeWWd_pkO3BEqA" width="173" featureName="obSource">
         <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedColumnMappings[name='ReputationSource']"/>
       </columns>
       <columns xmi:type="table:DFeatureColumn" xmi:id="_030tIDp8EeWWd_pkO3BEqA" label="Responsible Role" cells="_030tITp8EeWWd_pkO3BEqA _031UMDp8EeWWd_pkO3BEqA _031UMTp8EeWWd_pkO3BEqA" width="246" featureName="provider">
@@ -1705,6 +1839,315 @@
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_JTglCDadEeWBdOV0uhqHbQ"/>
       <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='SourceRoleJourneyMap']/@defaultLayer"/>
       <target xmi:type="vdml:SourceRole" href="src/CollaborationServiceJourneyMap.vdml#//@collaborationRole.2"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="table:DTable" xmi:id="_5NsAgDqEEeW7-JH6UGub8g" name="new Objective Proposition Table" headerColumnWidth="183">
+      <target xmi:type="vdml:Collaboration" href="src/Collaboration.vdml#/"/>
+      <lines xmi:type="table:DLine" xmi:id="_5NsAgTqEEeW7-JH6UGub8g" label="objective value prop">
+        <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='objectPropositionTable']/@ownedLineMappings[name='roleLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_5NsAgjqEEeW7-JH6UGub8g" label="[Source Role 1, Source Role 2]" column="_5NsAjTqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_5NsAgzqEEeW7-JH6UGub8g" label="Role ruolo1" column="_5NsAjjqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_5NsAhDqEEeW7-JH6UGub8g" label="O" column="_5NsAjzqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_5NsAhTqEEeW7-JH6UGub8g" label="subobj value prop">
+        <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='objectPropositionTable']/@ownedLineMappings[name='roleLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_5NsAhjqEEeW7-JH6UGub8g" label="[Source Role 1]" column="_5NsAjTqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_5NsAhzqEEeW7-JH6UGub8g" label="Target Role target role 1" column="_5NsAjjqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_5NsAiDqEEeW7-JH6UGub8g" label="S" column="_5NsAjzqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_5NsAiTqEEeW7-JH6UGub8g" label="role1 value proposition">
+        <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='objectPropositionTable']/@ownedLineMappings[name='roleLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_5NsAijqEEeW7-JH6UGub8g" label="[Source Role 1]" column="_5NsAjTqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_5NsAizqEEeW7-JH6UGub8g" label="Role ruolo1" column="_5NsAjjqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_5NsAjDqEEeW7-JH6UGub8g" label="O" column="_5NsAjzqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
+      </lines>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_5NsAjTqEEeW7-JH6UGub8g" label="Reputation Source" cells="_5NsAgjqEEeW7-JH6UGub8g _5NsAhjqEEeW7-JH6UGub8g _5NsAijqEEeW7-JH6UGub8g" width="156" featureName="obSource">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='objectPropositionTable']/@ownedColumnMappings[name='ReputationSource']"/>
+      </columns>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_5NsAjjqEEeW7-JH6UGub8g" label="Responsible Role" cells="_5NsAgzqEEeW7-JH6UGub8g _5NsAhzqEEeW7-JH6UGub8g _5NsAizqEEeW7-JH6UGub8g" width="126" featureName="provider">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='objectPropositionTable']/@ownedColumnMappings[name='ResponsibleRole']"/>
+      </columns>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_5NsAjzqEEeW7-JH6UGub8g" label="S/O" cells="_5NsAhDqEEeW7-JH6UGub8g _5NsAiDqEEeW7-JH6UGub8g _5NsAjDqEEeW7-JH6UGub8g" featureName="name">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='objectPropositionTable']/@ownedColumnMappings[name='SubjectiveObjective']"/>
+      </columns>
+      <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='objectPropositionTable']"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="table:DTable" xmi:id="__Fao4DqEEeW7-JH6UGub8g" name="new Value Proposition Table" headerColumnWidth="183">
+      <target xmi:type="vdml:Collaboration" href="src/Collaboration.vdml#/"/>
+      <lines xmi:type="table:DLine" xmi:id="_KBLL0DqFEeW7-JH6UGub8g" label="objective value prop">
+        <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='valuePropositionTable']/@ownedLineMappings[name='valuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_KBLy4DqFEeW7-JH6UGub8g" label="Role ruolo1" column="__Fao7jqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_KBLy4TqFEeW7-JH6UGub8g" label="O" column="__Fao7zqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_Ra48oTqLEeW6YZ1BkK59Sw" label="[Source Role 1, Source Role 2]" column="_Ra48oDqLEeW6YZ1BkK59Sw">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_GSqdQDqGEeWIRM8htbdjgA" label="subjective value prop">
+        <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='valuePropositionTable']/@ownedLineMappings[name='valuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_GSznMDqGEeWIRM8htbdjgA" label="Role ruolo 3" column="__Fao7jqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_GS0OQDqGEeWIRM8htbdjgA" label="S" column="__Fao7zqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_Ra6KwDqLEeW6YZ1BkK59Sw" label="[Source Role 2, Source Role 1, Source Role 3]" column="_Ra48oDqLEeW6YZ1BkK59Sw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_KBLL0TqFEeW7-JH6UGub8g" label="subobj value prop">
+        <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='valuePropositionTable']/@ownedLineMappings[name='valuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_KBMZ8TqFEeW7-JH6UGub8g" label="Target Role target role 1" column="__Fao7jqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_KBMZ8jqFEeW7-JH6UGub8g" label="S" column="__Fao7zqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_Ra7Y4DqLEeW6YZ1BkK59Sw" label="[Source Role 1]" column="_Ra48oDqLEeW6YZ1BkK59Sw">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_GSp2MDqGEeWIRM8htbdjgA" label="sub val prop">
+        <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='valuePropositionTable']/@ownedLineMappings[name='valuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_GSrEUDqGEeWIRM8htbdjgA" label="Source Role 3" column="__Fao7jqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_GSrEUTqGEeWIRM8htbdjgA" label="S" column="__Fao7zqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_Ra8nADqLEeW6YZ1BkK59Sw" label="[Source Role 3]" column="_Ra48oDqLEeW6YZ1BkK59Sw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_KBLL0jqFEeW7-JH6UGub8g" label="role1 value proposition">
+        <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='valuePropositionTable']/@ownedLineMappings[name='valuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_KBNoETqFEeW7-JH6UGub8g" label="Role ruolo1" column="__Fao7jqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_KBNoEjqFEeW7-JH6UGub8g" label="O" column="__Fao7zqEEeW7-JH6UGub8g">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_Ra9OEDqLEeW6YZ1BkK59Sw" label="[Source Role 1]" column="_Ra48oDqLEeW6YZ1BkK59Sw">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
+      </lines>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_Ra48oDqLEeW6YZ1BkK59Sw" label="Reputation Source" cells="_Ra48oTqLEeW6YZ1BkK59Sw _Ra6KwDqLEeW6YZ1BkK59Sw _Ra7Y4DqLEeW6YZ1BkK59Sw _Ra8nADqLEeW6YZ1BkK59Sw _Ra9OEDqLEeW6YZ1BkK59Sw" width="258" featureName="sourceRole">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='valuePropositionTable']/@ownedColumnMappings[name='ReputationSource']"/>
+      </columns>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="__Fao7jqEEeW7-JH6UGub8g" label="Responsible Role" cells="_KBLy4DqFEeW7-JH6UGub8g _KBMZ8TqFEeW7-JH6UGub8g _KBNoETqFEeW7-JH6UGub8g _GSrEUDqGEeWIRM8htbdjgA _GSznMDqGEeWIRM8htbdjgA" width="147" featureName="provider">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='valuePropositionTable']/@ownedColumnMappings[name='ResponsibleRole']"/>
+      </columns>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="__Fao7zqEEeW7-JH6UGub8g" label="S/O" cells="_KBLy4TqFEeW7-JH6UGub8g _KBMZ8jqFEeW7-JH6UGub8g _KBNoEjqFEeW7-JH6UGub8g _GSrEUTqGEeWIRM8htbdjgA _GS0OQDqGEeWIRM8htbdjgA" featureName="name">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='valuePropositionTable']/@ownedColumnMappings[name='SubjectiveObjective']"/>
+      </columns>
+      <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='valuePropositionTable']"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="table:DTable" xmi:id="_aVGCEDqMEeWX6JAzpbwBPw" name="Target Value Propositions of Source Role 1" headerColumnWidth="183">
+      <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.7"/>
+      <lines xmi:type="table:DLine" xmi:id="_aVGCETqMEeWX6JAzpbwBPw" label="objective value prop">
+        <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedLineMappings[name='roleValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_aVGCEjqMEeWX6JAzpbwBPw" label="Role ruolo1" column="_aVGCHTqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_aVGCEzqMEeWX6JAzpbwBPw" label="O" column="_aVGCHjqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_aVGCFDqMEeWX6JAzpbwBPw" label="subobj value prop">
+        <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedLineMappings[name='roleValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_aVGCFTqMEeWX6JAzpbwBPw" label="Target Role target role 1" column="_aVGCHTqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_aVGCFjqMEeWX6JAzpbwBPw" label="S" column="_aVGCHjqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_aVGCFzqMEeWX6JAzpbwBPw" label="role1 value proposition">
+        <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedLineMappings[name='roleValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_aVGCGDqMEeWX6JAzpbwBPw" label="Role ruolo1" column="_aVGCHTqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_aVGCGTqMEeWX6JAzpbwBPw" label="O" column="_aVGCHjqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_aVGCGjqMEeWX6JAzpbwBPw" label="subjective value prop">
+        <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedLineMappings[name='roleValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_aVGCGzqMEeWX6JAzpbwBPw" label="Role ruolo 3" column="_aVGCHTqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_aVGCHDqMEeWX6JAzpbwBPw" label="S" column="_aVGCHjqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_aVGCHTqMEeWX6JAzpbwBPw" label="Responsible Role" cells="_aVGCEjqMEeWX6JAzpbwBPw _aVGCFTqMEeWX6JAzpbwBPw _aVGCGDqMEeWX6JAzpbwBPw _aVGCGzqMEeWX6JAzpbwBPw" width="126" featureName="provider">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedColumnMappings[name='ResponsibleRole']"/>
+      </columns>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_aVGCHjqMEeWX6JAzpbwBPw" label="S/O" cells="_aVGCEzqMEeWX6JAzpbwBPw _aVGCFjqMEeWX6JAzpbwBPw _aVGCGTqMEeWX6JAzpbwBPw _aVGCHDqMEeWX6JAzpbwBPw" featureName="name">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedColumnMappings[name='SubjectiveObjective']"/>
+      </columns>
+      <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="table:DTable" xmi:id="_myIKgDqMEeWX6JAzpbwBPw" name="Target Value Propositions of Source Role 2" headerColumnWidth="175">
+      <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.5"/>
+      <lines xmi:type="table:DLine" xmi:id="_myIKgTqMEeWX6JAzpbwBPw" label="objective value prop">
+        <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedLineMappings[name='roleValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_myIKgjqMEeWX6JAzpbwBPw" label="Role ruolo1" column="_myIKijqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_myIKgzqMEeWX6JAzpbwBPw" label="O" column="_myIKizqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_myIKhDqMEeWX6JAzpbwBPw" label="subjective value prop">
+        <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedLineMappings[name='roleValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_myIKhTqMEeWX6JAzpbwBPw" label="Role ruolo 3" column="_myIKijqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_myIKhjqMEeWX6JAzpbwBPw" label="S" column="_myIKizqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_myIKhzqMEeWX6JAzpbwBPw" label="subobj value prop">
+        <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedLineMappings[name='roleValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_myIKiDqMEeWX6JAzpbwBPw" label="Target Role target role 1" column="_myIKijqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_myIKiTqMEeWX6JAzpbwBPw" label="S" column="_myIKizqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_myIKijqMEeWX6JAzpbwBPw" label="Responsible Role" cells="_myIKgjqMEeWX6JAzpbwBPw _myIKhTqMEeWX6JAzpbwBPw _myIKiDqMEeWX6JAzpbwBPw" width="126" featureName="provider">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedColumnMappings[name='ResponsibleRole']"/>
+      </columns>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_myIKizqMEeWX6JAzpbwBPw" label="S/O" cells="_myIKgzqMEeWX6JAzpbwBPw _myIKhjqMEeWX6JAzpbwBPw _myIKiTqMEeWX6JAzpbwBPw" featureName="name">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedColumnMappings[name='SubjectiveObjective']"/>
+      </columns>
+      <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="table:DTable" xmi:id="_pWPGADqMEeWX6JAzpbwBPw" name="Target Value Propositions of Source Role 3" headerColumnWidth="175">
+      <target xmi:type="vdml:SourceRole" href="src/Collaboration.vdml#//@collaborationRole.10"/>
+      <lines xmi:type="table:DLine" xmi:id="_pWPGATqMEeWX6JAzpbwBPw" label="sub val prop">
+        <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedLineMappings[name='roleValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_pWPGAjqMEeWX6JAzpbwBPw" label="Source Role 3" column="_pWPGBzqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_pWPGAzqMEeWX6JAzpbwBPw" label="S" column="_pWPGCDqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.10/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_pWPGBDqMEeWX6JAzpbwBPw" label="subjective value prop">
+        <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedLineMappings[name='roleValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_pWPGBTqMEeWX6JAzpbwBPw" label="Role ruolo 3" column="_pWPGBzqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_pWPGBjqMEeWX6JAzpbwBPw" label="S" column="_pWPGCDqMEeWX6JAzpbwBPw">
+          <target xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubValueProposition" href="src/Collaboration.vdml#//@collaborationRole.2/@providedProposition.0"/>
+        </cells>
+      </lines>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_pWPGBzqMEeWX6JAzpbwBPw" label="Responsible Role" cells="_pWPGAjqMEeWX6JAzpbwBPw _pWPGBTqMEeWX6JAzpbwBPw" width="434" featureName="provider">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedColumnMappings[name='ResponsibleRole']"/>
+      </columns>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_pWPGCDqMEeWX6JAzpbwBPw" label="S/O" cells="_pWPGAzqMEeWX6JAzpbwBPw _pWPGBjqMEeWX6JAzpbwBPw" featureName="name">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']/@ownedColumnMappings[name='SubjectiveObjective']"/>
+      </columns>
+      <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleValuePropositionTable']"/>
     </ownedRepresentations>
     <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']"/>
   </ownedViews>

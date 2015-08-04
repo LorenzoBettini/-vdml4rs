@@ -9,12 +9,13 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
+import com.google.common.base.Function;
+
+import vdml.DecoratedValueProposition;
 import vdml.ObValueProposition;
 import vdml.Role;
 import vdml.SourceRole;
 import vdml.TargetRole;
-
-import com.google.common.base.Function;
 
 public class RoleServices {
 
@@ -56,5 +57,25 @@ public class RoleServices {
 
 				}));
 		return newArrayList(concat);
+	}
+
+	public Collection<DecoratedValueProposition> getDecoratedValuePropositions(
+			Set<Role> roles) {
+		List<SourceRole> sourceRoles = getSourceRoles(roles);
+
+		Iterable<DecoratedValueProposition> concat = concat(transform(sourceRoles,
+				new Function<SourceRole, Iterable<DecoratedValueProposition>>() {
+
+					@Override
+					public Iterable<DecoratedValueProposition> apply(SourceRole sourceRole) {
+						return getSourceRoleDecoratedValuePropositions(sourceRole);
+					}
+
+				}));
+		return newArrayList(concat);
+	}
+
+	public Collection<DecoratedValueProposition> getSourceRoleDecoratedValuePropositions(SourceRole role) {
+		return newArrayList(concat(role.getTargetObProposition(), role.getTargetSubProposition()));
 	}
 }

@@ -5,20 +5,23 @@
     <providedProposition xsi:type="vdml:ObValueProposition" name="role1 value proposition" recipient="//@collaborationRole.1" obSource="//@collaborationRole.7"/>
     <providedProposition recipient="//@collaborationRole.7"/>
     <providedProposition/>
-    <providedProposition xsi:type="vdml:ObValueProposition" name="objective value prop" recipient="//@collaborationRole.5" obSource="//@collaborationRole.7"/>
+    <providedProposition xsi:type="vdml:ObValueProposition" name="objective value prop" recipient="//@collaborationRole.5" obSource="//@collaborationRole.7 //@collaborationRole.5"/>
   </collaborationRole>
   <collaborationRole name="ruolo 2" receivedProposition="//@collaborationRole.0/@providedProposition.0 //@collaborationRole.0/@providedProposition.1"/>
   <collaborationRole name="ruolo 3">
-    <providedProposition xsi:type="vdml:SubValueProposition" name="subjective value prop" recipient="//@collaborationRole.5" subSource="//@collaborationRole.5 //@collaborationRole.7"/>
+    <providedProposition xsi:type="vdml:SubValueProposition" name="subjective value prop" recipient="//@collaborationRole.5" subSource="//@collaborationRole.5 //@collaborationRole.7 //@collaborationRole.10"/>
   </collaborationRole>
   <collaborationRole xsi:type="vdml:TargetRole" name="target role 1">
     <providedProposition xsi:type="vdml:SubObjValueProposition" name="subobj value prop" subSource="//@collaborationRole.5 //@collaborationRole.7" obSource="//@collaborationRole.7"/>
   </collaborationRole>
   <collaborationRole xsi:type="vdml:TargetRole" name="target role 2"/>
-  <collaborationRole xsi:type="vdml:SourceRole" name="source role" receivedProposition="//@collaborationRole.2/@providedProposition.0 //@collaborationRole.0/@providedProposition.4" targetSubProposition="//@collaborationRole.2/@providedProposition.0 //@collaborationRole.3/@providedProposition.0"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="2" receivedProposition="//@collaborationRole.2/@providedProposition.0 //@collaborationRole.0/@providedProposition.4" targetObProposition="//@collaborationRole.0/@providedProposition.4" targetSubProposition="//@collaborationRole.2/@providedProposition.0 //@collaborationRole.3/@providedProposition.0"/>
   <collaborationRole name="new role"/>
-  <collaborationRole xsi:type="vdml:SourceRole" receivedProposition="//@collaborationRole.0/@providedProposition.2" targetObProposition="//@collaborationRole.0/@providedProposition.4 //@collaborationRole.3/@providedProposition.0 //@collaborationRole.0/@providedProposition.1" targetSubProposition="//@collaborationRole.3/@providedProposition.0 //@collaborationRole.2/@providedProposition.0"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="1" receivedProposition="//@collaborationRole.0/@providedProposition.2" targetObProposition="//@collaborationRole.0/@providedProposition.4 //@collaborationRole.3/@providedProposition.0 //@collaborationRole.0/@providedProposition.1" targetSubProposition="//@collaborationRole.3/@providedProposition.0 //@collaborationRole.2/@providedProposition.0"/>
   <collaborationRole xsi:type="vdml:TargetRole"/>
   <collaborationRole name="AAA"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="3" targetSubProposition="//@collaborationRole.10/@providedProposition.0 //@collaborationRole.2/@providedProposition.0">
+    <providedProposition xsi:type="vdml:SubValueProposition" name="sub val prop" subSource="//@collaborationRole.10"/>
+  </collaborationRole>
   <activity name="prima"/>
 </vdml:Collaboration>

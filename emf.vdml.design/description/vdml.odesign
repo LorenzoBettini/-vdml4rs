@@ -314,9 +314,14 @@
         </edgeMappings>
       </defaultLayer>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="sourceTargetObTable" label="Source Target Objective Proposition Table" domainClass="vdml.Collaboration">
-      <ownedLineMappings name="roleLine" domainClass="vdml.ObValueProposition" semanticCandidatesExpression="[collaborationRole->getSourceRolesObValueProposition()/]" headerLabelExpression="feature:name"/>
-      <ownedColumnMappings name="ReputationSource" headerLabelExpression="Reputation Source" featureName="obSource"/>
+    <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="valuePropositionTable" label="Value Proposition Table" domainClass="vdml.Collaboration">
+      <ownedLineMappings name="valuePropositionLine" domainClass="vdml.DecoratedValueProposition" semanticCandidatesExpression="[collaborationRole->getDecoratedValuePropositions()/]" headerLabelExpression="feature:name"/>
+      <ownedColumnMappings name="ReputationSource" headerLabelExpression="Reputation Source" featureName="sourceRole"/>
+      <ownedColumnMappings name="ResponsibleRole" headerLabelExpression="Responsible Role" featureName="provider"/>
+      <ownedColumnMappings name="SubjectiveObjective" headerLabelExpression="S/O" featureName="name" labelExpression="[if self.oclIsKindOf(SubValueProposition) then 'S' else 'O' endif/]"/>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="sourceRoleValuePropositionTable" label="Source Role Value Proposition Table" titleExpression="['Target Value Propositions of Source Role ' + name/]" domainClass="vdml.SourceRole">
+      <ownedLineMappings name="roleValuePropositionLine" domainClass="vdml.DecoratedValueProposition" semanticCandidatesExpression="[self.getSourceRoleDecoratedValuePropositions()/]" headerLabelExpression="feature:name"/>
       <ownedColumnMappings name="ResponsibleRole" headerLabelExpression="Responsible Role" featureName="provider"/>
       <ownedColumnMappings name="SubjectiveObjective" headerLabelExpression="S/O" featureName="name" labelExpression="[if self.oclIsKindOf(SubValueProposition) then 'S' else 'O' endif/]"/>
     </ownedRepresentations>
