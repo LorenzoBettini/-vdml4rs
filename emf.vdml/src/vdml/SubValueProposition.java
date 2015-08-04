@@ -40,4 +40,13 @@ public interface SubValueProposition extends DecoratedValueProposition {
 	 * @generated
 	 */
 	EList<SourceRole> getSubSource();
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @model kind="operation"
+	 *        annotation="http://www.eclipse.org/emf/2002/GenModel body='return getSubSource();'"
+	 * @generated
+	 */
+	EList<SourceRole> getSourceRole();
 } // SubValueProposition

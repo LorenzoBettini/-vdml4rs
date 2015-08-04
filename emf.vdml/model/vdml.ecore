@@ -567,12 +567,24 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="SourceTargetRole" eSuperTypes="#//SourceRole #//TargetRole"/>
   <eClassifiers xsi:type="ecore:EClass" name="DecoratedValueProposition" abstract="true"
-      eSuperTypes="#//ValueProposition"/>
+      eSuperTypes="#//ValueProposition">
+    <eOperations name="getSourceRole" upperBound="-1" eType="#//SourceRole"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ObValueProposition" eSuperTypes="#//DecoratedValueProposition">
+    <eOperations name="getSourceRole" upperBound="-1" eType="#//SourceRole">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="body" value="return getObSource();"/>
+      </eAnnotations>
+    </eOperations>
     <eStructuralFeatures xsi:type="ecore:EReference" name="obSource" upperBound="-1"
         eType="#//SourceRole" eOpposite="#//SourceRole/targetObProposition"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="SubValueProposition" eSuperTypes="#//DecoratedValueProposition">
+    <eOperations name="getSourceRole" upperBound="-1" eType="#//SourceRole">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="body" value="return getSubSource();"/>
+      </eAnnotations>
+    </eOperations>
     <eStructuralFeatures xsi:type="ecore:EReference" name="subSource" upperBound="-1"
         eType="#//SourceRole" eOpposite="#//SourceRole/targetSubProposition"/>
   </eClassifiers>

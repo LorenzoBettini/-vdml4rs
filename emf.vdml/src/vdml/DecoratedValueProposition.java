@@ -2,6 +2,8 @@
  */
 package vdml;
 
+import org.eclipse.emf.common.util.EList;
+
 
 /**
  * <!-- begin-user-doc -->
@@ -14,5 +16,13 @@ package vdml;
  * @generated
  */
 public interface DecoratedValueProposition extends ValueProposition {
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @model kind="operation"
+	 * @generated
+	 */
+	EList<SourceRole> getSourceRole();
 
 } // DecoratedValueProposition

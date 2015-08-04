@@ -6,6 +6,7 @@ import org.eclipse.emf.common.util.URI;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EOperation;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 
@@ -3117,6 +3118,15 @@ public class VdmlPackageImpl extends EPackageImpl implements VdmlPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EOperation getDecoratedValueProposition__GetSourceRole() {
+		return decoratedValuePropositionEClass.getEOperations().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getObValueProposition() {
 		return obValuePropositionEClass;
 	}
@@ -3135,6 +3145,15 @@ public class VdmlPackageImpl extends EPackageImpl implements VdmlPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EOperation getObValueProposition__GetSourceRole() {
+		return obValuePropositionEClass.getEOperations().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getSubValueProposition() {
 		return subValuePropositionEClass;
 	}
@@ -3146,6 +3165,15 @@ public class VdmlPackageImpl extends EPackageImpl implements VdmlPackage {
 	 */
 	public EReference getSubValueProposition_SubSource() {
 		return (EReference)subValuePropositionEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EOperation getSubValueProposition__GetSourceRole() {
+		return subValuePropositionEClass.getEOperations().get(0);
 	}
 
 	/**
@@ -3524,12 +3552,15 @@ public class VdmlPackageImpl extends EPackageImpl implements VdmlPackage {
 		sourceTargetRoleEClass = createEClass(SOURCE_TARGET_ROLE);
 
 		decoratedValuePropositionEClass = createEClass(DECORATED_VALUE_PROPOSITION);
+		createEOperation(decoratedValuePropositionEClass, DECORATED_VALUE_PROPOSITION___GET_SOURCE_ROLE);
 
 		obValuePropositionEClass = createEClass(OB_VALUE_PROPOSITION);
 		createEReference(obValuePropositionEClass, OB_VALUE_PROPOSITION__OB_SOURCE);
+		createEOperation(obValuePropositionEClass, OB_VALUE_PROPOSITION___GET_SOURCE_ROLE);
 
 		subValuePropositionEClass = createEClass(SUB_VALUE_PROPOSITION);
 		createEReference(subValuePropositionEClass, SUB_VALUE_PROPOSITION__SUB_SOURCE);
+		createEOperation(subValuePropositionEClass, SUB_VALUE_PROPOSITION___GET_SOURCE_ROLE);
 
 		subObjValuePropositionEClass = createEClass(SUB_OBJ_VALUE_PROPOSITION);
 	}
@@ -3977,11 +4008,17 @@ public class VdmlPackageImpl extends EPackageImpl implements VdmlPackage {
 
 		initEClass(decoratedValuePropositionEClass, DecoratedValueProposition.class, "DecoratedValueProposition", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
+		initEOperation(getDecoratedValueProposition__GetSourceRole(), this.getSourceRole(), "getSourceRole", 0, -1, IS_UNIQUE, IS_ORDERED);
+
 		initEClass(obValuePropositionEClass, ObValueProposition.class, "ObValueProposition", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getObValueProposition_ObSource(), this.getSourceRole(), this.getSourceRole_TargetObProposition(), "obSource", null, 0, -1, ObValueProposition.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
+		initEOperation(getObValueProposition__GetSourceRole(), this.getSourceRole(), "getSourceRole", 0, -1, IS_UNIQUE, IS_ORDERED);
+
 		initEClass(subValuePropositionEClass, SubValueProposition.class, "SubValueProposition", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getSubValueProposition_SubSource(), this.getSourceRole(), this.getSourceRole_TargetSubProposition(), "subSource", null, 0, -1, SubValueProposition.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEOperation(getSubValueProposition__GetSourceRole(), this.getSourceRole(), "getSourceRole", 0, -1, IS_UNIQUE, IS_ORDERED);
 
 		initEClass(subObjValuePropositionEClass, SubObjValueProposition.class, "SubObjValueProposition", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 

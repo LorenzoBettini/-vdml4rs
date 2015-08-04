@@ -2,6 +2,7 @@
  */
 package vdml.impl;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.Collection;
 import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.util.EList;
@@ -9,9 +10,11 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+import vdml.DecoratedValueProposition;
 import vdml.ObValueProposition;
 import vdml.SourceRole;
 import vdml.SubObjValueProposition;
+import vdml.SubValueProposition;
 import vdml.VdmlPackage;
 
 /**
@@ -67,6 +70,15 @@ public class SubObjValuePropositionImpl extends SubValuePropositionImpl implemen
 			obSource = new EObjectWithInverseResolvingEList.ManyInverse<SourceRole>(SourceRole.class, this, VdmlPackage.SUB_OBJ_VALUE_PROPOSITION__OB_SOURCE, VdmlPackage.SOURCE_ROLE__TARGET_OB_PROPOSITION);
 		}
 		return obSource;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EList<SourceRole> getSourceRole() {
+		return getObSource();
 	}
 
 	/**
@@ -188,6 +200,48 @@ public class SubObjValuePropositionImpl extends SubValuePropositionImpl implemen
 			}
 		}
 		return super.eDerivedStructuralFeatureID(baseFeatureID, baseClass);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public int eDerivedOperationID(int baseOperationID, Class<?> baseClass) {
+		if (baseClass == DecoratedValueProposition.class) {
+			switch (baseOperationID) {
+				case VdmlPackage.DECORATED_VALUE_PROPOSITION___GET_SOURCE_ROLE: return VdmlPackage.SUB_OBJ_VALUE_PROPOSITION___GET_SOURCE_ROLE;
+				default: return super.eDerivedOperationID(baseOperationID, baseClass);
+			}
+		}
+		if (baseClass == SubValueProposition.class) {
+			switch (baseOperationID) {
+				case VdmlPackage.SUB_VALUE_PROPOSITION___GET_SOURCE_ROLE: return VdmlPackage.SUB_OBJ_VALUE_PROPOSITION___GET_SOURCE_ROLE;
+				default: return super.eDerivedOperationID(baseOperationID, baseClass);
+			}
+		}
+		if (baseClass == ObValueProposition.class) {
+			switch (baseOperationID) {
+				case VdmlPackage.OB_VALUE_PROPOSITION___GET_SOURCE_ROLE: return VdmlPackage.SUB_OBJ_VALUE_PROPOSITION___GET_SOURCE_ROLE;
+				default: return -1;
+			}
+		}
+		return super.eDerivedOperationID(baseOperationID, baseClass);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Object eInvoke(int operationID, EList<?> arguments) throws InvocationTargetException {
+		switch (operationID) {
+			case VdmlPackage.SUB_OBJ_VALUE_PROPOSITION___GET_SOURCE_ROLE:
+				return getSourceRole();
+		}
+		return super.eInvoke(operationID, arguments);
 	}
 
 } //SubObjValuePropositionImpl

@@ -2,6 +2,7 @@
  */
 package vdml.impl;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.Collection;
 import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.util.EList;
@@ -66,6 +67,15 @@ public class ObValuePropositionImpl extends DecoratedValuePropositionImpl implem
 			obSource = new EObjectWithInverseResolvingEList.ManyInverse<SourceRole>(SourceRole.class, this, VdmlPackage.OB_VALUE_PROPOSITION__OB_SOURCE, VdmlPackage.SOURCE_ROLE__TARGET_OB_PROPOSITION);
 		}
 		return obSource;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EList<SourceRole> getSourceRole() {
+		return getObSource();
 	}
 
 	/**
@@ -155,6 +165,20 @@ public class ObValuePropositionImpl extends DecoratedValuePropositionImpl implem
 				return obSource != null && !obSource.isEmpty();
 		}
 		return super.eIsSet(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Object eInvoke(int operationID, EList<?> arguments) throws InvocationTargetException {
+		switch (operationID) {
+			case VdmlPackage.OB_VALUE_PROPOSITION___GET_SOURCE_ROLE:
+				return getSourceRole();
+		}
+		return super.eInvoke(operationID, arguments);
 	}
 
 } //ObValuePropositionImpl

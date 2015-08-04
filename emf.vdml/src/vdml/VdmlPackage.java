@@ -6,6 +6,7 @@ import java.lang.String;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EOperation;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 
@@ -8427,13 +8428,22 @@ public interface VdmlPackage extends EPackage {
 	int DECORATED_VALUE_PROPOSITION_FEATURE_COUNT = VALUE_PROPOSITION_FEATURE_COUNT + 0;
 
 	/**
+	 * The operation id for the '<em>Get Source Role</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DECORATED_VALUE_PROPOSITION___GET_SOURCE_ROLE = VALUE_PROPOSITION_OPERATION_COUNT + 0;
+
+	/**
 	 * The number of operations of the '<em>Decorated Value Proposition</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int DECORATED_VALUE_PROPOSITION_OPERATION_COUNT = VALUE_PROPOSITION_OPERATION_COUNT + 0;
+	int DECORATED_VALUE_PROPOSITION_OPERATION_COUNT = VALUE_PROPOSITION_OPERATION_COUNT + 1;
 
 	/**
 	 * The meta object id for the '{@link vdml.impl.ObValuePropositionImpl <em>Ob Value Proposition</em>}' class.
@@ -8563,13 +8573,22 @@ public interface VdmlPackage extends EPackage {
 	int OB_VALUE_PROPOSITION_FEATURE_COUNT = DECORATED_VALUE_PROPOSITION_FEATURE_COUNT + 1;
 
 	/**
+	 * The operation id for the '<em>Get Source Role</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int OB_VALUE_PROPOSITION___GET_SOURCE_ROLE = DECORATED_VALUE_PROPOSITION_OPERATION_COUNT + 0;
+
+	/**
 	 * The number of operations of the '<em>Ob Value Proposition</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int OB_VALUE_PROPOSITION_OPERATION_COUNT = DECORATED_VALUE_PROPOSITION_OPERATION_COUNT + 0;
+	int OB_VALUE_PROPOSITION_OPERATION_COUNT = DECORATED_VALUE_PROPOSITION_OPERATION_COUNT + 1;
 
 	/**
 	 * The meta object id for the '{@link vdml.impl.SubValuePropositionImpl <em>Sub Value Proposition</em>}' class.
@@ -8699,13 +8718,22 @@ public interface VdmlPackage extends EPackage {
 	int SUB_VALUE_PROPOSITION_FEATURE_COUNT = DECORATED_VALUE_PROPOSITION_FEATURE_COUNT + 1;
 
 	/**
+	 * The operation id for the '<em>Get Source Role</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SUB_VALUE_PROPOSITION___GET_SOURCE_ROLE = DECORATED_VALUE_PROPOSITION_OPERATION_COUNT + 0;
+
+	/**
 	 * The number of operations of the '<em>Sub Value Proposition</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SUB_VALUE_PROPOSITION_OPERATION_COUNT = DECORATED_VALUE_PROPOSITION_OPERATION_COUNT + 0;
+	int SUB_VALUE_PROPOSITION_OPERATION_COUNT = DECORATED_VALUE_PROPOSITION_OPERATION_COUNT + 1;
 
 	/**
 	 * The meta object id for the '{@link vdml.impl.SubObjValuePropositionImpl <em>Sub Obj Value Proposition</em>}' class.
@@ -8844,13 +8872,22 @@ public interface VdmlPackage extends EPackage {
 	int SUB_OBJ_VALUE_PROPOSITION_FEATURE_COUNT = SUB_VALUE_PROPOSITION_FEATURE_COUNT + 1;
 
 	/**
+	 * The operation id for the '<em>Get Source Role</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SUB_OBJ_VALUE_PROPOSITION___GET_SOURCE_ROLE = SUB_VALUE_PROPOSITION_OPERATION_COUNT + 0;
+
+	/**
 	 * The number of operations of the '<em>Sub Obj Value Proposition</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SUB_OBJ_VALUE_PROPOSITION_OPERATION_COUNT = SUB_VALUE_PROPOSITION_OPERATION_COUNT + 0;
+	int SUB_OBJ_VALUE_PROPOSITION_OPERATION_COUNT = SUB_VALUE_PROPOSITION_OPERATION_COUNT + 1;
 
 
 	/**
@@ -11802,6 +11839,16 @@ public interface VdmlPackage extends EPackage {
 	EClass getDecoratedValueProposition();
 
 	/**
+	 * Returns the meta object for the '{@link vdml.DecoratedValueProposition#getSourceRole() <em>Get Source Role</em>}' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the '<em>Get Source Role</em>' operation.
+	 * @see vdml.DecoratedValueProposition#getSourceRole()
+	 * @generated
+	 */
+	EOperation getDecoratedValueProposition__GetSourceRole();
+
+	/**
 	 * Returns the meta object for class '{@link vdml.ObValueProposition <em>Ob Value Proposition</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -11823,6 +11870,16 @@ public interface VdmlPackage extends EPackage {
 	EReference getObValueProposition_ObSource();
 
 	/**
+	 * Returns the meta object for the '{@link vdml.ObValueProposition#getSourceRole() <em>Get Source Role</em>}' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the '<em>Get Source Role</em>' operation.
+	 * @see vdml.ObValueProposition#getSourceRole()
+	 * @generated
+	 */
+	EOperation getObValueProposition__GetSourceRole();
+
+	/**
 	 * Returns the meta object for class '{@link vdml.SubValueProposition <em>Sub Value Proposition</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -11842,6 +11899,16 @@ public interface VdmlPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getSubValueProposition_SubSource();
+
+	/**
+	 * Returns the meta object for the '{@link vdml.SubValueProposition#getSourceRole() <em>Get Source Role</em>}' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the '<em>Get Source Role</em>' operation.
+	 * @see vdml.SubValueProposition#getSourceRole()
+	 * @generated
+	 */
+	EOperation getSubValueProposition__GetSourceRole();
 
 	/**
 	 * Returns the meta object for class '{@link vdml.SubObjValueProposition <em>Sub Obj Value Proposition</em>}'.
@@ -14201,6 +14268,14 @@ public interface VdmlPackage extends EPackage {
 		EClass DECORATED_VALUE_PROPOSITION = eINSTANCE.getDecoratedValueProposition();
 
 		/**
+		 * The meta object literal for the '<em><b>Get Source Role</b></em>' operation.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EOperation DECORATED_VALUE_PROPOSITION___GET_SOURCE_ROLE = eINSTANCE.getDecoratedValueProposition__GetSourceRole();
+
+		/**
 		 * The meta object literal for the '{@link vdml.impl.ObValuePropositionImpl <em>Ob Value Proposition</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -14219,6 +14294,14 @@ public interface VdmlPackage extends EPackage {
 		EReference OB_VALUE_PROPOSITION__OB_SOURCE = eINSTANCE.getObValueProposition_ObSource();
 
 		/**
+		 * The meta object literal for the '<em><b>Get Source Role</b></em>' operation.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EOperation OB_VALUE_PROPOSITION___GET_SOURCE_ROLE = eINSTANCE.getObValueProposition__GetSourceRole();
+
+		/**
 		 * The meta object literal for the '{@link vdml.impl.SubValuePropositionImpl <em>Sub Value Proposition</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -14235,6 +14318,14 @@ public interface VdmlPackage extends EPackage {
 		 * @generated
 		 */
 		EReference SUB_VALUE_PROPOSITION__SUB_SOURCE = eINSTANCE.getSubValueProposition_SubSource();
+
+		/**
+		 * The meta object literal for the '<em><b>Get Source Role</b></em>' operation.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EOperation SUB_VALUE_PROPOSITION___GET_SOURCE_ROLE = eINSTANCE.getSubValueProposition__GetSourceRole();
 
 		/**
 		 * The meta object literal for the '{@link vdml.impl.SubObjValuePropositionImpl <em>Sub Obj Value Proposition</em>}' class.
