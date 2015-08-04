@@ -3118,8 +3118,8 @@ public class VdmlPackageImpl extends EPackageImpl implements VdmlPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getDecoratedValueProposition__GetSourceRole() {
-		return decoratedValuePropositionEClass.getEOperations().get(0);
+	public EReference getDecoratedValueProposition_SourceRole() {
+		return (EReference)decoratedValuePropositionEClass.getEStructuralFeatures().get(0);
 	}
 
 	/**
@@ -3552,7 +3552,7 @@ public class VdmlPackageImpl extends EPackageImpl implements VdmlPackage {
 		sourceTargetRoleEClass = createEClass(SOURCE_TARGET_ROLE);
 
 		decoratedValuePropositionEClass = createEClass(DECORATED_VALUE_PROPOSITION);
-		createEOperation(decoratedValuePropositionEClass, DECORATED_VALUE_PROPOSITION___GET_SOURCE_ROLE);
+		createEReference(decoratedValuePropositionEClass, DECORATED_VALUE_PROPOSITION__SOURCE_ROLE);
 
 		obValuePropositionEClass = createEClass(OB_VALUE_PROPOSITION);
 		createEReference(obValuePropositionEClass, OB_VALUE_PROPOSITION__OB_SOURCE);
@@ -4007,8 +4007,7 @@ public class VdmlPackageImpl extends EPackageImpl implements VdmlPackage {
 		initEClass(sourceTargetRoleEClass, SourceTargetRole.class, "SourceTargetRole", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(decoratedValuePropositionEClass, DecoratedValueProposition.class, "DecoratedValueProposition", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-
-		initEOperation(getDecoratedValueProposition__GetSourceRole(), this.getSourceRole(), "getSourceRole", 0, -1, IS_UNIQUE, IS_ORDERED);
+		initEReference(getDecoratedValueProposition_SourceRole(), this.getSourceRole(), null, "sourceRole", null, 0, -1, DecoratedValueProposition.class, IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, IS_DERIVED, IS_ORDERED);
 
 		initEClass(obValuePropositionEClass, ObValueProposition.class, "ObValueProposition", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getObValueProposition_ObSource(), this.getSourceRole(), this.getSourceRole_TargetObProposition(), "obSource", null, 0, -1, ObValueProposition.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

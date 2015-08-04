@@ -10,7 +10,6 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
 import org.eclipse.emf.ecore.util.InternalEList;
-import vdml.DecoratedValueProposition;
 import vdml.ObValueProposition;
 import vdml.SourceRole;
 import vdml.SubObjValueProposition;
@@ -209,12 +208,6 @@ public class SubObjValuePropositionImpl extends SubValuePropositionImpl implemen
 	 */
 	@Override
 	public int eDerivedOperationID(int baseOperationID, Class<?> baseClass) {
-		if (baseClass == DecoratedValueProposition.class) {
-			switch (baseOperationID) {
-				case VdmlPackage.DECORATED_VALUE_PROPOSITION___GET_SOURCE_ROLE: return VdmlPackage.SUB_OBJ_VALUE_PROPOSITION___GET_SOURCE_ROLE;
-				default: return super.eDerivedOperationID(baseOperationID, baseClass);
-			}
-		}
 		if (baseClass == SubValueProposition.class) {
 			switch (baseOperationID) {
 				case VdmlPackage.SUB_VALUE_PROPOSITION___GET_SOURCE_ROLE: return VdmlPackage.SUB_OBJ_VALUE_PROPOSITION___GET_SOURCE_ROLE;
