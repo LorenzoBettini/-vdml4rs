@@ -894,6 +894,10 @@
           <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
           <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
         </cells>
+        <cells xmi:type="table:DCell" xmi:id="_qVLGYTp_EeWWd_pkO3BEqA" label="O" column="_qVLGYDp_EeWWd_pkO3BEqA">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.4"/>
+        </cells>
       </lines>
       <lines xmi:type="table:DLine" xmi:id="_iXVoMPMlEeSQ048cCdOPjw" label="subobj value prop">
         <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
@@ -904,6 +908,10 @@
           <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
         </cells>
         <cells xmi:type="table:DCell" xmi:id="_031UMDp8EeWWd_pkO3BEqA" label="Target Role target role 1" column="_030tIDp8EeWWd_pkO3BEqA">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
+        </cells>
+        <cells xmi:type="table:DCell" xmi:id="_qVLGYjp_EeWWd_pkO3BEqA" label="S" column="_qVLGYDp_EeWWd_pkO3BEqA">
           <target xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
           <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Collaboration.vdml#//@collaborationRole.3/@providedProposition.0"/>
         </cells>
@@ -920,12 +928,19 @@
           <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
           <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
         </cells>
+        <cells xmi:type="table:DCell" xmi:id="_qVLtcDp_EeWWd_pkO3BEqA" label="O" column="_qVLGYDp_EeWWd_pkO3BEqA">
+          <target xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+          <semanticElements xmi:type="vdml:ObValueProposition" href="src/Collaboration.vdml#//@collaborationRole.0/@providedProposition.1"/>
+        </cells>
       </lines>
       <columns xmi:type="table:DFeatureColumn" xmi:id="_7jfwYDp7EeWWd_pkO3BEqA" label="Reputation Source" cells="_eE7kIDp8EeWWd_pkO3BEqA _eE8yQDp8EeWWd_pkO3BEqA _eE8yQTp8EeWWd_pkO3BEqA" width="146" featureName="obSource">
         <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedColumnMappings[name='ReputationSource']"/>
       </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_030tIDp8EeWWd_pkO3BEqA" label="Responsible Role" cells="_030tITp8EeWWd_pkO3BEqA _031UMDp8EeWWd_pkO3BEqA _031UMTp8EeWWd_pkO3BEqA" featureName="provider">
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_030tIDp8EeWWd_pkO3BEqA" label="Responsible Role" cells="_030tITp8EeWWd_pkO3BEqA _031UMDp8EeWWd_pkO3BEqA _031UMTp8EeWWd_pkO3BEqA" width="246" featureName="provider">
         <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedColumnMappings[name='ResponsibleRole']"/>
+      </columns>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_qVLGYDp_EeWWd_pkO3BEqA" label="S/O" cells="_qVLGYTp_EeWWd_pkO3BEqA _qVLGYjp_EeWWd_pkO3BEqA _qVLtcDp_EeWWd_pkO3BEqA" featureName="name">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']/@ownedColumnMappings[name='SubjectiveObjective']"/>
       </columns>
       <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceTargetObTable']"/>
     </ownedRepresentations>

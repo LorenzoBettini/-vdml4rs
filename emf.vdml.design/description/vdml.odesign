@@ -318,6 +318,7 @@
       <ownedLineMappings name="roleLine" domainClass="vdml.ObValueProposition" semanticCandidatesExpression="[collaborationRole->getSourceRolesObValueProposition()/]" headerLabelExpression="feature:name"/>
       <ownedColumnMappings name="ReputationSource" headerLabelExpression="Reputation Source" featureName="obSource"/>
       <ownedColumnMappings name="ResponsibleRole" headerLabelExpression="Responsible Role" featureName="provider"/>
+      <ownedColumnMappings name="SubjectiveObjective" headerLabelExpression="S/O" featureName="name" labelExpression="[if self.oclIsKindOf(SubValueProposition) then 'S' else 'O' endif/]"/>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.RoleServices"/>
     <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.ValuePropositionServices"/>
