@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdml:Collaboration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:vdml=" http://www.omg.org/spec/VDML/20120601/vdml.xmi">
+  <collaborationRole xsi:type="vdml:SourceRole" name="food supplier" targetObProposition="//@collaborationRole.0/@providedProposition.0">
+    <providedProposition xsi:type="vdml:SubObjValueProposition" name="food" recipient="//@collaborationRole.4" obSource="//@collaborationRole.0"/>
+  </collaborationRole>
+  <collaborationRole xsi:type="vdml:SourceRole" name="extra activities" targetObProposition="//@collaborationRole.1/@providedProposition.0">
+    <providedProposition xsi:type="vdml:SubObjValueProposition" name="activities" recipient="//@collaborationRole.4" obSource="//@collaborationRole.1"/>
+  </collaborationRole>
+  <collaborationRole name="cleaning service">
+    <providedProposition xsi:type="vdml:SubValueProposition" name="cleaning" recipient="//@collaborationRole.4"/>
+  </collaborationRole>
+  <collaborationRole name="security service">
+    <providedProposition name="security devices" recipient="//@collaborationRole.4"/>
+  </collaborationRole>
+  <collaborationRole xsi:type="vdml:TargetRole" name="nursery" receivedProposition="//@collaborationRole.0/@providedProposition.0 //@collaborationRole.1/@providedProposition.0 //@collaborationRole.2/@providedProposition.0 //@collaborationRole.3/@providedProposition.0 //@collaborationRole.5/@providedProposition.0">
+    <providedProposition xsi:type="vdml:SubObjValueProposition" name="educational service" recipient="//@collaborationRole.8"/>
+    <providedProposition xsi:type="vdml:SubValueProposition" name="interaction with family" recipient="//@collaborationRole.8"/>
+    <providedProposition xsi:type="vdml:SubObjValueProposition" name="canteen" recipient="//@collaborationRole.8" obSource="//@collaborationRole.7"/>
+    <providedProposition xsi:type="vdml:SubObjValueProposition" name="spaces" recipient="//@collaborationRole.8" obSource="//@collaborationRole.6 //@collaborationRole.7"/>
+  </collaborationRole>
+  <collaborationRole name="teachers">
+    <providedProposition xsi:type="vdml:SubObjValueProposition" name="educational competences" description="" recipient="//@collaborationRole.4" obSource="//@collaborationRole.6"/>
+  </collaborationRole>
+  <collaborationRole xsi:type="vdml:SourceRole" name="open data" targetObProposition="//@collaborationRole.5/@providedProposition.0 //@collaborationRole.4/@providedProposition.3"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="certification company" targetObProposition="//@collaborationRole.4/@providedProposition.2 //@collaborationRole.4/@providedProposition.3"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="customer" receivedProposition="//@collaborationRole.4/@providedProposition.0 //@collaborationRole.4/@providedProposition.1 //@collaborationRole.4/@providedProposition.2 //@collaborationRole.4/@providedProposition.3"/>
+</vdml:Collaboration>
