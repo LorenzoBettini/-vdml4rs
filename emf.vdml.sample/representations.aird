@@ -2747,7 +2747,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_37C4cVLkEeWGvbxNSuBy_g" color="253,206,137">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_37C4cVLkEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="209,209,209">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']"/>
@@ -2758,7 +2758,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_BXXB4VLlEeWGvbxNSuBy_g" color="253,206,137">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_BXXB4VLlEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="209,209,209">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']"/>
@@ -2769,7 +2769,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_WX-qEVLnEeWGvbxNSuBy_g" color="253,206,137">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_WX-qEVLnEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="209,209,209">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']"/>
@@ -2780,7 +2780,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_r0U24FLnEeWGvbxNSuBy_g" color="253,206,137">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_r0U24FLnEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="209,209,209">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']"/>
@@ -2791,7 +2791,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_ssEXMVLnEeWGvbxNSuBy_g" color="253,206,137">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_ssEXMVLnEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="209,209,209">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SourceRoleNode']"/>
@@ -2802,7 +2802,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_IfuywFLlEeWGvbxNSuBy_g">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_IfuywFLlEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
@@ -2813,7 +2813,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_H_zDkVLnEeWGvbxNSuBy_g">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_H_zDkVLnEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
@@ -2824,7 +2824,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_DSAJoFLlEeWGvbxNSuBy_g">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_DSAJoFLlEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='RoleNode']"/>
@@ -2835,7 +2835,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_uR-3AFLlEeWGvbxNSuBy_g" color="255,245,181">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_uR-3AFLlEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="255,245,181">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']"/>
@@ -2846,7 +2846,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_Ojq1sFLmEeWGvbxNSuBy_g" color="255,245,181">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_Ojq1sFLmEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="255,245,181">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']"/>
@@ -2857,7 +2857,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_5o1IkVLnEeWGvbxNSuBy_g" color="255,245,181">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_5o1IkVLnEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="255,245,181">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']"/>
@@ -2868,7 +2868,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_NF7P4VLnEeWGvbxNSuBy_g" color="255,245,181">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_NF7P4VLnEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="255,245,181">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']"/>
@@ -2879,7 +2879,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_H39gwVLoEeWGvbxNSuBy_g" color="255,245,181">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_H39gwVLoEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="255,245,181">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']"/>
@@ -2890,7 +2890,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_Mu-TAFLoEeWGvbxNSuBy_g" color="255,245,181">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_Mu-TAFLoEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="255,245,181">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubObValuePropositionNode']"/>
@@ -2933,7 +2933,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_BDY1oVLoEeWGvbxNSuBy_g" color="217,196,215">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_BDY1oVLoEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="217,196,215">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']"/>
@@ -2944,7 +2944,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_abnUEVLmEeWGvbxNSuBy_g" color="217,196,215">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_abnUEVLmEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="217,196,215">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='SubValuePropositionNode']"/>
@@ -2963,7 +2963,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_f7VsIFLmEeWGvbxNSuBy_g" color="238,201,142">
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_f7VsIFLmEeWGvbxNSuBy_g" borderSize="1" borderSizeComputationExpression="1" color="238,201,142">
           <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='ValuePropositionNode']"/>
@@ -2982,7 +2982,7 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_ywP8oFLmEeWGvbxNSuBy_g" color="194,239,255">
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_ywP8oFLmEeWGvbxNSuBy_g" borderSize="2" borderSizeComputationExpression="2" color="69,69,69">
           <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@nodeMappings[name='TargetRoleNode']"/>

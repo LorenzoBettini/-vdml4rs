@@ -4,49 +4,49 @@
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Value proposition exchange diagram" initialisation="true" domainClass="vdml.Collaboration">
       <defaultLayer name="Default">
         <nodeMappings name="RoleNode" semanticCandidatesExpression="[collaborationRole->getGenericRoles()/]" domainClass="vdml.Role">
-          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+          <style xsi:type="style:EllipseNodeDescription" borderSizeComputationExpression="1" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="TargetRoleNode" semanticCandidatesExpression="feature:collaborationRole" domainClass="vdml.TargetRole">
-          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+          <style xsi:type="style:EllipseNodeDescription" borderSizeComputationExpression="2" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="SourceRoleNode" semanticCandidatesExpression="feature:collaborationRole" doubleClickDescription="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='SourceRoleDoubleClick']" domainClass="vdml.SourceRole">
-          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+          <style xsi:type="style:EllipseNodeDescription" borderSizeComputationExpression="1" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="ValuePropositionNode" semanticCandidatesExpression="[collaborationRole.providedProposition->getGenericValuePropositions()/]" domainClass="vdml.ValueProposition">
-          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_chocolate']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="SubValuePropositionNode" semanticCandidatesExpression="[collaborationRole.providedProposition->getSubValuePropositions()/]" domainClass="vdml.SubValueProposition">
-          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_purple']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="SubObValuePropositionNode" semanticCandidatesExpression="[collaborationRole.providedProposition/]" domainClass="vdml.SubObjValueProposition">
-          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="ObValuePropositionNode" semanticCandidatesExpression="[collaborationRole.providedProposition->getObValuePropositions()/]" domainClass="vdml.ObValueProposition">
-          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="1" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
