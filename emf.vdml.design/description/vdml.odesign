@@ -325,6 +325,12 @@
       <ownedColumnMappings name="ResponsibleRole" headerLabelExpression="Responsible Role" featureName="provider"/>
       <ownedColumnMappings name="SubjectiveObjective" headerLabelExpression="S/O" featureName="name" labelExpression="[if self.oclIsKindOf(SubValueProposition) then 'S' else 'O' endif/]"/>
     </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="activitiesTable" label="Activities Table" titleExpression="['Activities of ' + name/]" domainClass="vdml.Collaboration">
+      <ownedLineMappings name="activityLine" domainClass="vdml.Activity" semanticCandidatesExpression="[activity/]"/>
+      <ownedColumnMappings name="PerformingRole" label="Performing Role" headerLabelExpression="Performing Role" featureName="performingRole"/>
+      <ownedColumnMappings name="inputPortsHandler" label="Input Ports Handler" headerLabelExpression="Input Ports Handler" featureName="name" labelExpression="[self.containedPort->filter(InputPort)->collect(p | p.handler.name)->asSet()/]"/>
+      <ownedColumnMappings name="outputPortsHandler" label="Output Ports Handler" headerLabelExpression="Output Ports Handler" featureName="name" labelExpression="[self.containedPort->filter(OutputPort)->collect(p | p.handler.name)->asSet()/]"/>
+    </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.RoleServices"/>
     <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.ValuePropositionServices"/>
   </ownedViewpoints>

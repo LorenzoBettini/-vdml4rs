@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdml:Collaboration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:vdml=" http://www.omg.org/spec/VDML/20120601/vdml.xmi" name="collaboration">
+  <collaborationRole xsi:type="vdml:SourceRole" name="customer" performedWork="//@activity.0" port="//@activity.0/@containedPort.0 //@activity.0/@containedPort.1" roleResource="//@activity.0/@containedPort.0"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="teacher"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="canteen staff"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="activities staff"/>
+  <activity name="enter nursery" performingRole="//@collaborationRole.0">
+    <containedPort xsi:type="vdml:InputPort" name="input" handler="//@collaborationRole.0" role="//@collaborationRole.0"/>
+    <containedPort xsi:type="vdml:OutputPort" name="output" handler="//@collaborationRole.0"/>
+    <resourceUse name="safety"/>
+    <resourceUse name="space"/>
+    <resourceUse name="hygiene"/>
+  </activity>
+  <activity name="welcome">
+    <resourceUse name="educational services"/>
+  </activity>
+  <activity name="activities">
+    <resourceUse name="teacher competencies"/>
+  </activity>
+  <activity name="meal">
+    <resourceUse name="canteen"/>
+  </activity>
+  <activity name="extra activities">
+    <resourceUse name="sports"/>
+    <resourceUse name="extra-curricular services"/>
+  </activity>
+</vdml:Collaboration>
