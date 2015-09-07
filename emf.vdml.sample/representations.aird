@@ -5386,7 +5386,7 @@
       <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='ServiceJourneyMap']/@defaultLayer"/>
       <target xmi:type="vdml:Collaboration" href="src/Example3.vdml#/"/>
     </ownedRepresentations>
-    <ownedRepresentations xmi:type="table:DTable" xmi:id="_OPLGUFPsEeWEWrA-bAj4lA" name="Activities of collaboration" headerColumnWidth="346">
+    <ownedRepresentations xmi:type="table:DTable" xmi:id="_OPLGUFPsEeWEWrA-bAj4lA" name="Activities of collaboration" headerColumnWidth="315">
       <target xmi:type="vdml:Collaboration" href="src/Example3.vdml#/"/>
       <lines xmi:type="table:DLine" xmi:id="_OPLGUVPsEeWEWrA-bAj4lA" label="Activity enter nursery">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.0"/>
@@ -5558,13 +5558,13 @@
           <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.9"/>
         </cells>
       </lines>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_Wj25UFPsEeWEWrA-bAj4lA" label="Performing Role" cells="_Wj25UVPsEeWEWrA-bAj4lA _Wj25UlPsEeWEWrA-bAj4lA _Wj25U1PsEeWEWrA-bAj4lA _Wj3gYFPsEeWEWrA-bAj4lA _Wj3gYVPsEeWEWrA-bAj4lA _1yr1IFSiEeWdXphKRm1X7g _BlKksFSjEeWdXphKRm1X7g _NHUZQFSjEeWdXphKRm1X7g _Xo9zEFSjEeWdXphKRm1X7g _Xo_BMFSjEeWdXphKRm1X7g" width="346" featureName="performingRole">
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_Wj25UFPsEeWEWrA-bAj4lA" label="Performing Role" cells="_Wj25UVPsEeWEWrA-bAj4lA _Wj25UlPsEeWEWrA-bAj4lA _Wj25U1PsEeWEWrA-bAj4lA _Wj3gYFPsEeWEWrA-bAj4lA _Wj3gYVPsEeWEWrA-bAj4lA _1yr1IFSiEeWdXphKRm1X7g _BlKksFSjEeWdXphKRm1X7g _NHUZQFSjEeWdXphKRm1X7g _Xo9zEFSjEeWdXphKRm1X7g _Xo_BMFSjEeWdXphKRm1X7g" width="230" featureName="performingRole">
         <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='activitiesTable']/@ownedColumnMappings[name='PerformingRole']"/>
       </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_5IEUQFPsEeWEWrA-bAj4lA" label="Input Ports Handler" cells="_5IEUQVPsEeWEWrA-bAj4lA _5IKa4FPsEeWEWrA-bAj4lA _5IKa4VPsEeWEWrA-bAj4lA _5ILB8FPsEeWEWrA-bAj4lA _5ILpAFPsEeWEWrA-bAj4lA _1yr1IVSiEeWdXphKRm1X7g _BlLLwFSjEeWdXphKRm1X7g _NHUZQVSjEeWdXphKRm1X7g _Xo9zEVSjEeWdXphKRm1X7g _Xo_BMVSjEeWdXphKRm1X7g" width="346" featureName="name">
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_5IEUQFPsEeWEWrA-bAj4lA" label="Input Ports" cells="_5IEUQVPsEeWEWrA-bAj4lA _5IKa4FPsEeWEWrA-bAj4lA _5IKa4VPsEeWEWrA-bAj4lA _5ILB8FPsEeWEWrA-bAj4lA _5ILpAFPsEeWEWrA-bAj4lA _1yr1IVSiEeWdXphKRm1X7g _BlLLwFSjEeWdXphKRm1X7g _NHUZQVSjEeWdXphKRm1X7g _Xo9zEVSjEeWdXphKRm1X7g _Xo_BMVSjEeWdXphKRm1X7g" width="198" featureName="name">
         <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='activitiesTable']/@ownedColumnMappings[name='inputPortsHandler']"/>
       </columns>
-      <columns xmi:type="table:DFeatureColumn" xmi:id="_JCpsMFPuEeWEWrA-bAj4lA" label="Output Ports Handler" cells="_JCpsMVPuEeWEWrA-bAj4lA _JCuksFPuEeWEWrA-bAj4lA _JCvLwFPuEeWEWrA-bAj4lA _JCvy0FPuEeWEWrA-bAj4lA _JCwZ4FPuEeWEWrA-bAj4lA _1yscMFSiEeWdXphKRm1X7g _BlLy0FSjEeWdXphKRm1X7g _NHVAUFSjEeWdXphKRm1X7g _Xo-aIFSjEeWdXphKRm1X7g _Xo_BMlSjEeWdXphKRm1X7g" featureName="name">
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_JCpsMFPuEeWEWrA-bAj4lA" label="Output Ports" cells="_JCpsMVPuEeWEWrA-bAj4lA _JCuksFPuEeWEWrA-bAj4lA _JCvLwFPuEeWEWrA-bAj4lA _JCvy0FPuEeWEWrA-bAj4lA _JCwZ4FPuEeWEWrA-bAj4lA _1yscMFSiEeWdXphKRm1X7g _BlLy0FSjEeWdXphKRm1X7g _NHVAUFSjEeWdXphKRm1X7g _Xo-aIFSjEeWdXphKRm1X7g _Xo_BMlSjEeWdXphKRm1X7g" featureName="name">
         <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='activitiesTable']/@ownedColumnMappings[name='outputPortsHandler']"/>
       </columns>
       <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='activitiesTable']"/>
@@ -5576,7 +5576,7 @@
       </columns>
       <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleObValuePropositionTable']"/>
     </ownedRepresentations>
-    <ownedRepresentations xmi:type="table:DTable" xmi:id="_bBV2YFSeEeWdXphKRm1X7g" name="Target Subjective Value Propositions of Source Role customer" headerColumnWidth="667">
+    <ownedRepresentations xmi:type="table:DTable" xmi:id="_bBV2YFSeEeWdXphKRm1X7g" name="Target Subjective Value Propositions of Source Role customer" headerColumnWidth="284">
       <target xmi:type="vdml:SourceRole" href="src/Example2.vdml#//@collaborationRole.8"/>
       <lines xmi:type="table:DLine" xmi:id="_h1_aAFSeEeWdXphKRm1X7g" label="activities">
         <target xmi:type="vdml:SubObjValueProposition" href="src/Example2.vdml#//@collaborationRole.1/@providedProposition.0"/>
@@ -5775,10 +5775,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QPwUZ1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPwUaFSkEeWdXphKRm1X7g" y="-22" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QPxigFSkEeWdXphKRm1X7g" type="3003" element="_QPnKflSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QPxigVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPxiglSkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G4uw0FU3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G34cQFU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G4zCQFU3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G4zpUFU3EeW3CpRJz0NgGw" x="21"/>
@@ -5790,8 +5786,12 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G4uw0VU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4uw0lU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8VwEFU4EeW3CpRJz0NgGw" type="3016" element="_i78HcFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8VwEVU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8VwElU4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPq001SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPq01FSkEeWdXphKRm1X7g" x="48" y="192" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPq01FSkEeWdXphKRm1X7g" x="48" y="192" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_QPq011SkEeWdXphKRm1X7g" type="2001" element="_QPnKf1SkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_QPrb4FSkEeWdXphKRm1X7g" type="5002">
@@ -5808,10 +5808,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QPxih1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPxiiFSkEeWdXphKRm1X7g" x="-12" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QPyJklSkEeWdXphKRm1X7g" type="3003" element="_QPnKglSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QPyJk1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPyJlFSkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G45I4FU3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G364gFU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G45v8FU3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G45v8VU3EeW3CpRJz0NgGw" x="21"/>
@@ -5823,8 +5819,12 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G45I4VU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G45I4lU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8W-MFU4EeW3CpRJz0NgGw" type="3016" element="_i78HcVU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8W-MVU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8W-MlU4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPq02FSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPq02VSkEeWdXphKRm1X7g" x="684" y="144" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPq02VSkEeWdXphKRm1X7g" x="684" y="144" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_QPrb4lSkEeWdXphKRm1X7g" type="2001" element="_QPnKg1SkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_QPrb5VSkEeWdXphKRm1X7g" type="5002">
@@ -5841,10 +5841,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QPywpFSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPywpVSkEeWdXphKRm1X7g" y="-22" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QPzXsFSkEeWdXphKRm1X7g" type="3003" element="_QPnKhlSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QPzXsVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPzXslSkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G46XA1U3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G37fkFU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G46-EFU3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G46-EVU3EeW3CpRJz0NgGw" x="21"/>
@@ -5856,8 +5852,12 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G46XBFU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G46XBVU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8XlQFU4EeW3CpRJz0NgGw" type="3016" element="_i78ugFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8XlQVU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8XlQlU4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPrb41SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPrb5FSkEeWdXphKRm1X7g" x="408" y="180" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPrb5FSkEeWdXphKRm1X7g" x="408" y="180" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_QPsC8FSkEeWdXphKRm1X7g" type="2001" element="_QPnKh1SkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_QPsqAFSkEeWdXphKRm1X7g" type="5002">
@@ -5874,10 +5874,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QPz-wVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPz-wlSkEeWdXphKRm1X7g" x="-12" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QPz-xVSkEeWdXphKRm1X7g" type="3003" element="_QPnKilSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QPz-xlSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPz-x1SkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G47lIFU3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G38tsFU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G47lI1U3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G47lJFU3EeW3CpRJz0NgGw" x="21"/>
@@ -5889,8 +5885,12 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G47lIVU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G47lIlU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8XlQ1U4EeW3CpRJz0NgGw" type="3016" element="_i78ugVU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8XlRFU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8YMUFU4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPsC8VSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPsC8lSkEeWdXphKRm1X7g" x="900" y="144" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPsC8lSkEeWdXphKRm1X7g" x="900" y="144" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_QPsqAlSkEeWdXphKRm1X7g" type="2001" element="_QPnKi1SkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_QPtREFSkEeWdXphKRm1X7g" type="5002">
@@ -5907,10 +5907,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QP0l1FSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP0l1VSkEeWdXphKRm1X7g" y="-22" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QP1M4lSkEeWdXphKRm1X7g" type="3003" element="_QPnKjlSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QP1M41SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP1M5FSkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G48zQFU3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G3970FU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G48zQ1U3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G48zRFU3EeW3CpRJz0NgGw" x="21"/>
@@ -5922,8 +5918,12 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G48zQVU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G48zQlU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8YMUVU4EeW3CpRJz0NgGw" type="3016" element="_i79VkFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8YMUlU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8YMU1U4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPsqA1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPsqBFSkEeWdXphKRm1X7g" x="312" y="180" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPsqBFSkEeWdXphKRm1X7g" x="312" y="180" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_QPtRElSkEeWdXphKRm1X7g" type="2001" element="_QPnKj1SkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_QPtRFVSkEeWdXphKRm1X7g" type="5002">
@@ -5940,10 +5940,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QP1z9FSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP1z9VSkEeWdXphKRm1X7g" x="-12" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QP2bAFSkEeWdXphKRm1X7g" type="3003" element="_QPnKklSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QP2bAVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP2bAlSkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G4-BYFU3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G3-i4FU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G4-ocFU3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G4-ocVU3EeW3CpRJz0NgGw" x="21"/>
@@ -5955,8 +5951,12 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G4-BYVU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4-BYlU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8YzYFU4EeW3CpRJz0NgGw" type="3016" element="_i798oFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8YzYVU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8YzYlU4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPtRE1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPtRFFSkEeWdXphKRm1X7g" x="1049" y="127" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPtRFFSkEeWdXphKRm1X7g" x="1049" y="127" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_QPtRF1SkEeWdXphKRm1X7g" type="2001" element="_QPnKk1SkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_QPt4IFSkEeWdXphKRm1X7g" type="5002">
@@ -5973,10 +5973,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QP2bB1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP2bCFSkEeWdXphKRm1X7g" x="22" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QP3CElSkEeWdXphKRm1X7g" type="3003" element="_QPnKllSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QP3CE1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP3CFFSkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G4_2kFU3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G3_xAFU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G5AdoFU3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G5AdoVU3EeW3CpRJz0NgGw" x="21"/>
@@ -5988,8 +5984,12 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G4_2kVU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4_2klU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8ZacFU4EeW3CpRJz0NgGw" type="3016" element="_i798oVU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8ZacVU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8ZaclU4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPtRGFSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPtRGVSkEeWdXphKRm1X7g" x="540" y="180" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPtRGVSkEeWdXphKRm1X7g" x="540" y="180" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_QPt4IlSkEeWdXphKRm1X7g" type="2001" element="_QPnKl1SkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_QPufMFSkEeWdXphKRm1X7g" type="5002">
@@ -6006,10 +6006,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QP3pIVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP3pIlSkEeWdXphKRm1X7g" x="-12" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QP3pJVSkEeWdXphKRm1X7g" type="3003" element="_QPnKmlSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QP3pJlSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP3pJ1SkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G5BEsFU3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G4AYEFU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G5BrwFU3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G5BrwVU3EeW3CpRJz0NgGw" x="21"/>
@@ -6021,8 +6017,12 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G5BEsVU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G5BEslU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8aBgFU4EeW3CpRJz0NgGw" type="3016" element="_i7-jsFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8aBgVU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8aBglU4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPt4I1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPt4JFSkEeWdXphKRm1X7g" x="1152" y="144" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPt4JFSkEeWdXphKRm1X7g" x="1152" y="144" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_QPufMlSkEeWdXphKRm1X7g" type="2001" element="_QPnKm1SkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_QPufNVSkEeWdXphKRm1X7g" type="5002">
@@ -6039,10 +6039,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QP4QNFSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP4QNVSkEeWdXphKRm1X7g" x="-12" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QP43QFSkEeWdXphKRm1X7g" type="3003" element="_QPnKnlSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QP43QVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP43QlSkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G5C54FU3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G4CNQFU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G5C541U3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G5C55FU3EeW3CpRJz0NgGw" x="21"/>
@@ -6054,8 +6050,12 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G5C54VU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G5C54lU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8aokFU4EeW3CpRJz0NgGw" type="3016" element="_i7_KwFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8aokVU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8aoklU4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPufM1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPufNFSkEeWdXphKRm1X7g" x="204" y="180" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPufNFSkEeWdXphKRm1X7g" x="204" y="180" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_QPvGQFSkEeWdXphKRm1X7g" type="2001" element="_QPnKn1SkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_QPvGQ1SkEeWdXphKRm1X7g" type="5002">
@@ -6072,10 +6072,6 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_QP43R1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP43SFSkEeWdXphKRm1X7g" x="-12" width="20" height="20"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_QP5eUlSkEeWdXphKRm1X7g" type="3003" element="_QPnKolSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_QP5eU1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QP5eVFSkEeWdXphKRm1X7g"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_G5Dg81U3EeW3CpRJz0NgGw" visible="false" type="3001" element="_G4ECcFU3EeW3CpRJz0NgGw">
               <children xmi:type="notation:Node" xmi:id="_G5EIAFU3EeW3CpRJz0NgGw" type="5001">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_G5EIAVU3EeW3CpRJz0NgGw" x="21"/>
@@ -6087,27 +6083,31 @@
               <styles xmi:type="notation:ShapeStyle" xmi:id="_G5Dg9FU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G5Dg9VU3EeW3CpRJz0NgGw" x="-12" width="20" height="20"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_i8bPoFU4EeW3CpRJz0NgGw" type="3016" element="_i7_KwVU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_i8bPoVU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i8bPolU4EeW3CpRJz0NgGw"/>
+            </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_QPvGQVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPvGQlSkEeWdXphKRm1X7g" x="811" y="156" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QPvGQlSkEeWdXphKRm1X7g" x="811" y="156" width="40" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_rC7b8FSkEeWdXphKRm1X7g" type="2001" element="_rC0HMFSkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_rC8DAFSkEeWdXphKRm1X7g" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_rC8DAVSkEeWdXphKRm1X7g" x="31"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_rC8DAVSkEeWdXphKRm1X7g" x="-9"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_rC-fQFSkEeWdXphKRm1X7g" type="3016" element="_rC0HMVSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_rC-fQVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC-fQlSkEeWdXphKRm1X7g"/>
+            <children xmi:type="notation:Node" xmi:id="_QN4F0FU4EeW3CpRJz0NgGw" type="3003" element="_QNnnIFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_QN4F0VU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QN4F0lU4EeW3CpRJz0NgGw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_rC7b8VSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC7b8lSkEeWdXphKRm1X7g" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC7b8lSkEeWdXphKRm1X7g" x="12" width="37" height="29"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_rC8DAlSkEeWdXphKRm1X7g" type="2001" element="_rC0uQFSkEeWdXphKRm1X7g">
             <children xmi:type="notation:Node" xmi:id="_rC8qEFSkEeWdXphKRm1X7g" type="5002">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_rC8qEVSkEeWdXphKRm1X7g" x="31"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_rC-fQ1SkEeWdXphKRm1X7g" type="3016" element="_rC0uQVSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_rC-fRFSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC-fRVSkEeWdXphKRm1X7g"/>
+            <children xmi:type="notation:Node" xmi:id="_QN4s4FU4EeW3CpRJz0NgGw" type="3003" element="_QNoOMFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_QN4s4VU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QN4s4lU4EeW3CpRJz0NgGw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_rC8DA1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC8DBFSkEeWdXphKRm1X7g" x="480" width="30" height="30"/>
@@ -6116,9 +6116,9 @@
             <children xmi:type="notation:Node" xmi:id="_rC8qFVSkEeWdXphKRm1X7g" type="5002">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_rC8qFlSkEeWdXphKRm1X7g" x="31"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_rC_GUFSkEeWdXphKRm1X7g" type="3016" element="_rC1VUFSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_rC_GUVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC_GUlSkEeWdXphKRm1X7g"/>
+            <children xmi:type="notation:Node" xmi:id="_QN5T8FU4EeW3CpRJz0NgGw" type="3003" element="_QNo1QFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_QN5T8VU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QN5T8lU4EeW3CpRJz0NgGw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_rC8qE1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC8qFFSkEeWdXphKRm1X7g" x="696" width="30" height="30"/>
@@ -6127,9 +6127,9 @@
             <children xmi:type="notation:Node" xmi:id="_rC9RI1SkEeWdXphKRm1X7g" type="5002">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_rC9RJFSkEeWdXphKRm1X7g" x="31"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_rC_GU1SkEeWdXphKRm1X7g" type="3016" element="_rC1VUlSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_rC_GVFSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC_GVVSkEeWdXphKRm1X7g"/>
+            <children xmi:type="notation:Node" xmi:id="_QN5T81U4EeW3CpRJz0NgGw" type="3003" element="_QNo1QVU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_QN5T9FU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QN5T9VU4EeW3CpRJz0NgGw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_rC9RIVSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC9RIlSkEeWdXphKRm1X7g" x="840" width="30" height="30"/>
@@ -6138,9 +6138,9 @@
             <children xmi:type="notation:Node" xmi:id="_rC94MFSkEeWdXphKRm1X7g" type="5002">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_rC94MVSkEeWdXphKRm1X7g" x="31"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_rC_GVlSkEeWdXphKRm1X7g" type="3016" element="_rC1VVFSkEeWdXphKRm1X7g">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_rC_GV1SkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC_GWFSkEeWdXphKRm1X7g"/>
+            <children xmi:type="notation:Node" xmi:id="_QN57AFU4EeW3CpRJz0NgGw" type="3003" element="_QNpcUFU4EeW3CpRJz0NgGw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_QN57AVU4EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QN57AlU4EeW3CpRJz0NgGw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_rC9RJlSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rC9RJ1SkEeWdXphKRm1X7g" x="312" width="30" height="30"/>
@@ -6318,8 +6318,8 @@
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_-HR2oVSkEeWdXphKRm1X7g"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_-HR2olSkEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-HR2o1SkEeWdXphKRm1X7g" points="[4, 15, -39, -160]$[40, 165, -3, -10]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-HSdtlSkEeWdXphKRm1X7g" id="(0.5,0.5)"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-HR2o1SkEeWdXphKRm1X7g" points="[10, 60, -21, -116]$[28, 166, -3, -10]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-HSdtlSkEeWdXphKRm1X7g" id="(0.4032258064516129,0.4885044315682132)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-HSdt1SkEeWdXphKRm1X7g" id="(0.5,0.5)"/>
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_-HSduFSkEeWdXphKRm1X7g" type="4001" element="_-HLwA1SkEeWdXphKRm1X7g" source="_rC8DAlSkEeWdXphKRm1X7g" target="_QPz-wFSkEeWdXphKRm1X7g">
@@ -6398,8 +6398,8 @@
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_C1iVgVSlEeWdXphKRm1X7g"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_C1iVglSlEeWdXphKRm1X7g" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C1iVg1SlEeWdXphKRm1X7g" points="[15, 3, -652, -136]$[657, 136, -10, -3]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C1i8llSlEeWdXphKRm1X7g" id="(0.5,0.5)"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C1iVg1SlEeWdXphKRm1X7g" points="[64, 13, -591, -127]$[645, 137, -10, -3]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C1i8llSlEeWdXphKRm1X7g" id="(0.4032258064516129,0.4885044315682132)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C1i8l1SlEeWdXphKRm1X7g" id="(0.5,0.5)"/>
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_C1i8mFSlEeWdXphKRm1X7g" type="4001" element="_C1ddA1SlEeWdXphKRm1X7g" source="_rC8DAlSkEeWdXphKRm1X7g" target="_QPywo1SkEeWdXphKRm1X7g">
@@ -6479,7 +6479,7 @@
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_G5GkQVU3EeW3CpRJz0NgGw"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_G5GkQlU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G5GkQ1U3EeW3CpRJz0NgGw" points="[0, 0, 0, 0]$[36, 192, 36, 192]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G5LcwFU3EeW3CpRJz0NgGw" id="(0.5,0.5)"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G5LcwFU3EeW3CpRJz0NgGw" id="(0.4032258064516129,0.4885044315682132)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G5LcwVU3EeW3CpRJz0NgGw" id="(0.5,0.5)"/>
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_G5LcwlU3EeW3CpRJz0NgGw" visible="false" type="4001" element="_G4PBkFU3EeW3CpRJz0NgGw" source="_rC8DAlSkEeWdXphKRm1X7g" target="_G47lIFU3EeW3CpRJz0NgGw">
@@ -6559,7 +6559,7 @@
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_G5OgE1U3EeW3CpRJz0NgGw"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_G5OgFFU3EeW3CpRJz0NgGw" fontName="Oxygen-Sans Sans-Book" fontHeight="8"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G5OgFVU3EeW3CpRJz0NgGw" points="[0, 0, 0, 0]$[672, 144, 672, 144]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G5PHIFU3EeW3CpRJz0NgGw" id="(0.5,0.5)"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G5PHIFU3EeW3CpRJz0NgGw" id="(0.4032258064516129,0.4885044315682132)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G5PHIVU3EeW3CpRJz0NgGw" id="(0.5,0.5)"/>
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_G5PHIlU3EeW3CpRJz0NgGw" visible="false" type="4001" element="_G4Sr8FU3EeW3CpRJz0NgGw" source="_rC8DAlSkEeWdXphKRm1X7g" target="_G46XA1U3EeW3CpRJz0NgGw">
@@ -6672,7 +6672,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableRoleNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKe1SkEeWdXphKRm1X7g" name="enter nursery" incomingEdges="_QPnKo1SkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKe1SkEeWdXphKRm1X7g" name="enter nursery" incomingEdges="_QPnKo1SkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.0"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.0"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKfFSkEeWdXphKRm1X7g" name="out1" incomingEdges="_-HLwAFSkEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6694,12 +6694,12 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKflSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i78HcFU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKf1SkEeWdXphKRm1X7g" name="welcome" incomingEdges="_QPnKslSkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKf1SkEeWdXphKRm1X7g" name="welcome" incomingEdges="_QPnKslSkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.1"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.1"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKgFSkEeWdXphKRm1X7g" name="in1" incomingEdges="_C1ddAFSlEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6724,12 +6724,12 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKglSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i78HcVU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKg1SkEeWdXphKRm1X7g" name="play activities" incomingEdges="_QPnKplSkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKg1SkEeWdXphKRm1X7g" name="play activities" incomingEdges="_QPnKplSkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.2"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.2"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKhFSkEeWdXphKRm1X7g" name="in2" incomingEdges="_C1ddA1SlEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6751,12 +6751,12 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKhlSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i78ugFU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKh1SkEeWdXphKRm1X7g" name="manage activities" incomingEdges="_QPnKtVSkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKh1SkEeWdXphKRm1X7g" name="manage activities" incomingEdges="_QPnKtVSkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.3"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.3"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKiFSkEeWdXphKRm1X7g" name="out2" incomingEdges="_-HLwA1SkEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6781,12 +6781,12 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKilSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i78ugVU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKi1SkEeWdXphKRm1X7g" name="eat" incomingEdges="_QPnKqVSkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKi1SkEeWdXphKRm1X7g" name="eat" incomingEdges="_QPnKqVSkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.4"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.4"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKjFSkEeWdXphKRm1X7g" name="in3" incomingEdges="_C1eEElSlEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6808,12 +6808,12 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKjlSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i79VkFU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKj1SkEeWdXphKRm1X7g" name="provide meal" incomingEdges="_QPnKu1SkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKj1SkEeWdXphKRm1X7g" name="provide meal" incomingEdges="_QPnKu1SkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.5"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.5"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKkFSkEeWdXphKRm1X7g" name="out3" incomingEdges="_-HMXEFSkEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6838,12 +6838,12 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKklSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i798oFU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKk1SkEeWdXphKRm1X7g" name="play extra activities" incomingEdges="_QPnKrFSkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKk1SkEeWdXphKRm1X7g" name="play extra activities" incomingEdges="_QPnKrFSkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.6"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.6"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKlFSkEeWdXphKRm1X7g" name="in4" incomingEdges="_C1eEFVSlEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6865,12 +6865,12 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKllSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i798oVU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKl1SkEeWdXphKRm1X7g" name="manage extra activities" incomingEdges="_QPnKvlSkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKl1SkEeWdXphKRm1X7g" name="manage extra activities" incomingEdges="_QPnKvlSkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.7"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.7"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKmFSkEeWdXphKRm1X7g" name="out4" incomingEdges="_-HMXE1SkEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6895,12 +6895,12 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKmlSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i7-jsFU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKm1SkEeWdXphKRm1X7g" name="exit" incomingEdges="_QPnKr1SkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKm1SkEeWdXphKRm1X7g" name="exit" incomingEdges="_QPnKr1SkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.8"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.8"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKnFSkEeWdXphKRm1X7g" name="out5" incomingEdges="_-HMXFlSkEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6925,12 +6925,12 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKnlSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i7_KwFU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKn1SkEeWdXphKRm1X7g" name="bye" incomingEdges="_QPnKuFSkEeWdXphKRm1X7g" width="3" height="3" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_QPnKn1SkEeWdXphKRm1X7g" name="bye" incomingEdges="_QPnKuFSkEeWdXphKRm1X7g" width="4" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.9"/>
         <semanticElements xmi:type="vdml:Activity" href="src/Example3.vdml#//@activity.9"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_QPnKoFSkEeWdXphKRm1X7g" name="in5" incomingEdges="_C1erIFSlEeWdXphKRm1X7g" width="2" height="2" resizeKind="NSEW">
@@ -6955,8 +6955,8 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_QPnKolSkEeWdXphKRm1X7g">
-          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_i7_KwVU4EeW3CpRJz0NgGw" horizontalDiameter="4" verticalDiameter="3">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']"/>
       </ownedDiagramElements>
@@ -7043,8 +7043,11 @@
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rC0HMFSkEeWdXphKRm1X7g" name="safety space hygiene" outgoingEdges="_-HLwAFSkEeWdXphKRm1X7g _C1ddAFSlEeWdXphKRm1X7g _G4OagFU3EeW3CpRJz0NgGw _G4SE4FU3EeW3CpRJz0NgGw" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="vdml:DeliverableFlow" href="src/Example3.vdml#//@flow.0"/>
         <semanticElements xmi:type="vdml:DeliverableFlow" href="src/Example3.vdml#//@flow.0"/>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_rC0HMVSkEeWdXphKRm1X7g" color="69,69,69">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_QNnnIFU4EeW3CpRJz0NgGw">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']"/>
       </ownedDiagramElements>
@@ -7054,8 +7057,8 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_rC0uQVSkEeWdXphKRm1X7g" color="69,69,69">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_QNoOMFU4EeW3CpRJz0NgGw">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']"/>
       </ownedDiagramElements>
@@ -7065,8 +7068,8 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_rC1VUFSkEeWdXphKRm1X7g" color="69,69,69">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_QNo1QFU4EeW3CpRJz0NgGw">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']"/>
       </ownedDiagramElements>
@@ -7076,8 +7079,8 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_rC1VUlSkEeWdXphKRm1X7g" color="69,69,69">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_QNo1QVU4EeW3CpRJz0NgGw">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']"/>
       </ownedDiagramElements>
@@ -7087,8 +7090,8 @@
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_rC1VVFSkEeWdXphKRm1X7g" color="69,69,69">
-          <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_QNpcUFU4EeW3CpRJz0NgGw">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableFlowNode']"/>
       </ownedDiagramElements>
@@ -7256,6 +7259,31 @@
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_QPnKxFSkEeWdXphKRm1X7g"/>
       <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer"/>
       <target xmi:type="vdml:Collaboration" href="src/Example3.vdml#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="table:DTable" xmi:id="_dOrXwFU6EeW3CpRJz0NgGw" name="Target Objective Value Propositions of Source Role certification company" headerColumnWidth="95">
+      <target xmi:type="vdml:SourceRole" href="src/Example2.vdml#//@collaborationRole.7"/>
+      <lines xmi:type="table:DLine" xmi:id="_dOrXwVU6EeW3CpRJz0NgGw" label="canteen">
+        <target xmi:type="vdml:SubObjValueProposition" href="src/Example2.vdml#//@collaborationRole.4/@providedProposition.2"/>
+        <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Example2.vdml#//@collaborationRole.4/@providedProposition.2"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleObValuePropositionTable']/@ownedLineMappings[name='roleObValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_dOrXwlU6EeW3CpRJz0NgGw" label="Target Role nursery" column="_dOrXxVU6EeW3CpRJz0NgGw">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Example2.vdml#//@collaborationRole.4/@providedProposition.2"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Example2.vdml#//@collaborationRole.4/@providedProposition.2"/>
+        </cells>
+      </lines>
+      <lines xmi:type="table:DLine" xmi:id="_dOrXw1U6EeW3CpRJz0NgGw" label="spaces">
+        <target xmi:type="vdml:SubObjValueProposition" href="src/Example2.vdml#//@collaborationRole.4/@providedProposition.3"/>
+        <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Example2.vdml#//@collaborationRole.4/@providedProposition.3"/>
+        <originMapping xmi:type="description_2:LineMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleObValuePropositionTable']/@ownedLineMappings[name='roleObValuePropositionLine']"/>
+        <cells xmi:type="table:DCell" xmi:id="_dOrXxFU6EeW3CpRJz0NgGw" label="Target Role nursery" column="_dOrXxVU6EeW3CpRJz0NgGw">
+          <target xmi:type="vdml:SubObjValueProposition" href="src/Example2.vdml#//@collaborationRole.4/@providedProposition.3"/>
+          <semanticElements xmi:type="vdml:SubObjValueProposition" href="src/Example2.vdml#//@collaborationRole.4/@providedProposition.3"/>
+        </cells>
+      </lines>
+      <columns xmi:type="table:DFeatureColumn" xmi:id="_dOrXxVU6EeW3CpRJz0NgGw" label="Responsible Role" cells="_dOrXwlU6EeW3CpRJz0NgGw _dOrXxFU6EeW3CpRJz0NgGw" featureName="provider">
+        <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleObValuePropositionTable']/@ownedColumnMappings[name='ResponsibleRole']"/>
+      </columns>
+      <description xmi:type="description_2:EditionTableDescription" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='sourceRoleObValuePropositionTable']"/>
     </ownedRepresentations>
     <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/emf.vdml.design/description/vdml.odesign#//@ownedViewpoints[name='extvdml']"/>
   </ownedViews>

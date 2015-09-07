@@ -331,17 +331,17 @@
               <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
             </style>
           </borderedNodeMappings>
-          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
+          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW" horizontalDiameterComputationExpression="4" verticalDiameterComputationExpression="3">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="DeliverableFlowNode" semanticCandidatesExpression="feature:flow" domainClass="vdml.DeliverableFlow">
-          <style xsi:type="style:EllipseNodeDescription" resizeKind="NSEW">
+          <style xsi:type="style:SquareDescription" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
           </style>
         </nodeMappings>
         <edgeMappings name="performingRoleEdge" sourceMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='DeliverableRoleNode']" targetMapping="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='DeliverableFlows']/@defaultLayer/@nodeMappings[name='ActivityNode']" targetFinderExpression="feature:performedWork" reconnections="//@ownedViewpoints[name='extvdml']/@ownedRepresentations[name='Value%20proposition%20exchange%20diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='moveProvidedValueProposition']">
@@ -392,8 +392,8 @@
     <ownedRepresentations xsi:type="description_2:EditionTableDescription" name="activitiesTable" label="Activities Table" titleExpression="['Activities of ' + name/]" domainClass="vdml.Collaboration">
       <ownedLineMappings name="activityLine" domainClass="vdml.Activity" semanticCandidatesExpression="[activity/]"/>
       <ownedColumnMappings name="PerformingRole" label="Performing Role" headerLabelExpression="Performing Role" featureName="performingRole"/>
-      <ownedColumnMappings name="inputPortsHandler" label="Input Ports Handler" headerLabelExpression="Input Ports Handler" featureName="name" labelExpression="[self.containedPort->filter(InputPort)->collect(p | p.name)->asSet()/]"/>
-      <ownedColumnMappings name="outputPortsHandler" label="Output Ports Handler" headerLabelExpression="Output Ports Handler" featureName="name" labelExpression="[self.containedPort->filter(OutputPort)->collect(p | p.name)->asSet()/]"/>
+      <ownedColumnMappings name="inputPortsHandler" label="Input Ports Handler" headerLabelExpression="Input Ports" featureName="name" labelExpression="[self.containedPort->filter(InputPort)->collect(p | p.name)->asSet()/]"/>
+      <ownedColumnMappings name="outputPortsHandler" label="Output Ports Handler" headerLabelExpression="Output Ports" featureName="name" labelExpression="[self.containedPort->filter(OutputPort)->collect(p | p.name)->asSet()/]"/>
     </ownedRepresentations>
     <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.RoleServices"/>
     <ownedJavaExtensions qualifiedClassName="emf.vdml.design.services.ValuePropositionServices"/>
