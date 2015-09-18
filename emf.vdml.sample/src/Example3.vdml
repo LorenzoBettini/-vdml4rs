@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vdml:Collaboration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:vdml=" http://www.omg.org/spec/VDML/20120601/vdml.xmi" name="collaboration">
-  <collaborationRole xsi:type="vdml:SourceRole" name="customer" performedWork="//@activity.0 //@activity.2 //@activity.4 //@activity.6 //@activity.8" port="//@activity.0/@containedPort.0"/>
+  <collaborationRole xsi:type="vdml:SourceRole" name="customer" performedWork="//@activity.0 //@activity.2 //@activity.4 //@activity.6 //@activity.8" port="//@activity.1/@containedPort.0"/>
   <collaborationRole xsi:type="vdml:SourceRole" name="teacher" performedWork="//@activity.1 //@activity.3 //@activity.9"/>
   <collaborationRole xsi:type="vdml:SourceRole" name="canteen staff" performedWork="//@activity.5"/>
   <collaborationRole xsi:type="vdml:SourceRole" name="activities staff" performedWork="//@activity.7"/>
   <activity name="enter nursery" performingRole="//@collaborationRole.0">
-    <containedPort xsi:type="vdml:OutputPort" name="out1" handler="//@collaborationRole.0" output="//@flow.0"/>
+    <containedPort xsi:type="vdml:InputPort" name="in1" input="//@flow.0"/>
   </activity>
   <activity name="welcome" performingRole="//@collaborationRole.1">
-    <containedPort xsi:type="vdml:InputPort" name="in1" input="//@flow.0"/>
+    <containedPort xsi:type="vdml:OutputPort" name="out1" handler="//@collaborationRole.0" output="//@flow.0"/>
   </activity>
   <activity name="play activities" performingRole="//@collaborationRole.0">
     <containedPort xsi:type="vdml:InputPort" name="in2" input="//@flow.1"/>
@@ -29,14 +29,14 @@
     <containedPort xsi:type="vdml:OutputPort" name="out4" output="//@flow.3"/>
   </activity>
   <activity name="exit" performingRole="//@collaborationRole.0">
-    <containedPort xsi:type="vdml:OutputPort" name="out5" output="//@flow.4"/>
-  </activity>
-  <activity name="bye" performingRole="//@collaborationRole.1">
     <containedPort xsi:type="vdml:InputPort" name="in5" input="//@flow.4"/>
   </activity>
-  <flow name="safety space hygiene" recipient="//@activity.1/@containedPort.0" provider="//@activity.0/@containedPort.0"/>
+  <activity name="bye" performingRole="//@collaborationRole.1">
+    <containedPort xsi:type="vdml:OutputPort" name="out5" output="//@flow.4"/>
+  </activity>
+  <flow name="safety space hygiene" recipient="//@activity.0/@containedPort.0" provider="//@activity.1/@containedPort.0"/>
   <flow name="educational services" recipient="//@activity.2/@containedPort.0" provider="//@activity.3/@containedPort.0"/>
   <flow name="canteen" recipient="//@activity.4/@containedPort.0" provider="//@activity.5/@containedPort.0"/>
   <flow name="sports and extra activities" recipient="//@activity.6/@containedPort.0" provider="//@activity.7/@containedPort.0"/>
-  <flow name="exit" recipient="//@activity.9/@containedPort.0" provider="//@activity.8/@containedPort.0"/>
+  <flow name="interaction with family" recipient="//@activity.8/@containedPort.0" provider="//@activity.9/@containedPort.0"/>
 </vdml:Collaboration>
